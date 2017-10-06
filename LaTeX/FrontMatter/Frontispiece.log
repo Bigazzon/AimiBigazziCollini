@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.5)  6 OCT 2017 15:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.5)  6 OCT 2017 17:01
 entering extended mode
-**./Frontespizio.tex
-(Frontespizio.tex
+**./Frontispiece.tex
+(Frontispiece.tex
 LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
@@ -328,49 +328,30 @@ Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.def"
 File: ot1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding OT1 on input line 48.
-))
-("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
-Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+)) (Frontispiece.aux)
+\openout1 = `Frontispiece.aux'.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
-Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen127
-\captionmargin@=\dimen128
-\captionwidth=\dimen129
-\caption@tempdima=\dimen130
-\caption@indent=\dimen131
-\caption@parindent=\dimen132
-\caption@hangindent=\dimen133
-)
-\c@ContinuedFloat=\count113
-Package caption Info: subfigure package is loaded.
-)
-\defbaselineskip=\skip61
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 51.
 
-(Frontespizio.aux)
-\openout1 = `Frontespizio.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 99.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 99.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Info: Redefining \it@ocap on input line 99.
-LaTeX Info: Redefining \it@ccap on input line 99.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Info: Redefining \it@ocap on input line 51.
+LaTeX Info: Redefining \it@ccap on input line 51.
 
 
 File italian.ldf warning: 
@@ -378,7 +359,7 @@ italian.ldf    With OT1 encoding guillemets are poorly faked
 italian.ldf    Use T1 encoding
 italian.ldf    or specify a font with command \CaporaliFrom
 italian.ldf    See the documentation concerning the babel-italian typesetting 
-italian.ldf    on input line 99.
+italian.ldf    on input line 51.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -416,16 +397,16 @@ italian.ldf    on input line 99.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count114
-\scratchdimen=\dimen134
+\scratchcounter=\count113
+\scratchdimen=\dimen127
 \scratchbox=\box28
-\nofMPsegments=\count115
-\nofMParguments=\count116
+\nofMPsegments=\count114
+\nofMParguments=\count115
 \everyMPshowfont=\toks23
-\MPscratchCnt=\count117
-\MPscratchDim=\dimen135
-\MPnumerator=\count118
-\makeMPintoPDFobject=\count119
+\MPscratchCnt=\count116
+\MPscratchDim=\dimen128
+\MPnumerator=\count117
+\makeMPintoPDFobject=\count118
 \everyMPtoPDFconversion=\toks24
 ) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
@@ -469,33 +450,30 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: End \AtBeginDocument code.
-
 <images/logoPolimi.png, id=1, 317.185pt x 311.1625pt>
 File: images/logoPolimi.png Graphic file (type png)
 
 <use images/logoPolimi.png>
-Package pdftex.def Info: images/logoPolimi.png used on input line 110.
+Package pdftex.def Info: images/logoPolimi.png used on input line 62.
 (pdftex.def)             Requested size: 79.29605pt x 77.79044pt.
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/logoPolimi.png>]
- (Frontespizio.aux) ) 
+ (Frontispiece.aux) ) 
 Here is how much of TeX's memory you used:
- 5974 strings out of 493323
- 83655 string characters out of 3139066
- 163626 words of memory out of 3000000
- 9421 multiletter control sequences out of 15000+200000
+ 4921 strings out of 493323
+ 64491 string characters out of 3139066
+ 144650 words of memory out of 3000000
+ 8374 multiletter control sequences out of 15000+200000
  7581 words of font info for 27 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,7n,43p,779b,372s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,7n,43p,779b,353s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti
 10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Progr
 am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Frontespizio.pdf (1 page, 99417 bytes).
+Output written on Frontispiece.pdf (1 page, 100128 bytes).
 PDF statistics:
  29 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

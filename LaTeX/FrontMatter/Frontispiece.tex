@@ -1,0 +1,126 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                   %
+%                            Frontispiece                           %
+%                                                                   %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Document type
+\documentclass[a4paper,12pt,twoside]{report}
+
+
+% Languages setup
+\usepackage[italian,english]{babel}
+
+
+% Margins setup
+\usepackage[margin=20mm,top=40mm]{geometry}
+
+
+% Packages to include...
+
+% Mathematical symbols
+\usepackage{amsmath}
+
+% Various symbols
+\usepackage{textcomp}
+\usepackage[mathscr]{euscript}
+
+% Figures
+\usepackage{epsfig}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{subfigure}
+
+% Headers
+\usepackage{fancyhdr}
+
+% Characters encoding
+\usepackage[ansinew]{inputenc}
+\usepackage[OT1]{fontenc}
+
+% Page style
+\fancyhead[L]{\chaptername \thechapter}
+\fancyhead[LO]{\thesection} \fancyhead[RO]{\sectionmark}
+\lhead{\slshape Ch. \thechapter}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                      Start of the document                        %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+
+% Start of the frontispiece
+
+\thispagestyle{empty}
+\enlargethispage{60mm}
+\begin{center}
+\Large{\textsc{Politecnico di Milano}}\\
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.25]{images/logoPolimi.png}
+\end{center}
+\end{figure}
+\vspace{-8mm}
+\large{Corso di Laurea Magistrale in Computer Science and Engineering}\\
+\large{Dipartimento di Elettronica e Informazione}\\
+\vspace{25mm}
+
+\begin{center}
+\noindent\rule{17cm}{0.4pt}
+\end{center}
+
+% Project title
+\vspace{1mm}
+{\textbf{\Huge{Travlendar+}}} \\
+\vspace{5mm}
+{\textbf{\textit{\Large{Requirement Analysis and Specification Document}}}}
+
+
+\noindent\rule{17cm}{0.4pt}
+
+\vspace{20mm}
+
+% professor
+\begin{center}
+Reference professor:
+\vspace{-4mm}
+\end{center}
+\begin{center}
+Prof. Elisabetta Di Nitto
+\end{center}
+
+% authors
+\begin{center}
+\vspace{10mm}
+Authors:
+\vspace{-3mm}
+\end{center}
+\begin{center}
+\begin{tabular}{l l }
+Alessandro Aimi & Matr. 899642 \\
+Roberto Bigazzi & Matr. 899411 \\
+Filippo Collini & Matr. 829918
+\end{tabular}
+\end{center}
+\vspace{10mm}
+
+% version e date
+\begin{center}
+\begin{tabular}{l l }
+\it{Version 0.1.1} \\
+\end{tabular}
+\end{center}
+\begin{center}
+\vspace{-4mm}
+\it{6/10/2017}
+\end{center}
+\vspace{-4mm}
+{\large{Academic Year 2017-2018}}
+\end{center}
+
+% End of the frontispiece
+% End of the document
+
+\end{document}
