@@ -14,6 +14,7 @@
 	[12pt,	
 	a4paper,		%
 	twoside,		% fronte-retro
+	openany,
 	titlepage,% 	% nuova pagina dopo il titolo (necessario per frontespizio)
 	]{book}
 %
@@ -160,15 +161,15 @@
 %
 %\input{FrontMatter/Colophon}
 %
-%\input{FrontMatter/Ringraziamenti}
+%\input{FrontMatter/Thanks}
 %
-%\input{FrontMatter/Dedica}
+%\input{FrontMatter/Dedication}
 %
-%\input{FrontMatter/Indici}
+%\input{FrontMatter/Indexes}
 %
 %\input{FrontMatter/SommarioAbstract}
 %
-\cleardoublepage
+\let\cleardoublepage\clearpage
 %
 % ------------------------------------------------------------------------ %
 % 	MAINMATTER
@@ -180,13 +181,13 @@
 %
 \input{MainMatter/Chapter2}
 %
-%\input{MainMatter/Chapter3}
+\input{MainMatter/Chapter3}
 %
-%\input{MainMatter/Chapter4}
+\input{MainMatter/Chapter4}
 %
 \input{MainMatter/Chapter5}
 %
-%\input{MainMatter/Chapter6}
+\input{MainMatter/Chapter6}
 %
 %\appendix
 %
