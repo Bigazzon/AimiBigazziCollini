@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.5)  6 OCT 2017 17:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.5)  9 OCT 2017 00:02
 entering extended mode
 **./Frontispiece.tex
 (Frontispiece.tex
@@ -331,27 +331,27 @@ LaTeX Font Info:    Redeclaring font encoding OT1 on input line 48.
 )) (Frontispiece.aux)
 \openout1 = `Frontispiece.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 51.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 52.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 52.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Info: Redefining \it@ocap on input line 51.
-LaTeX Info: Redefining \it@ccap on input line 51.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Info: Redefining \it@ocap on input line 52.
+LaTeX Info: Redefining \it@ccap on input line 52.
 
 
 File italian.ldf warning: 
@@ -359,7 +359,7 @@ italian.ldf    With OT1 encoding guillemets are poorly faked
 italian.ldf    Use T1 encoding
 italian.ldf    or specify a font with command \CaporaliFrom
 italian.ldf    See the documentation concerning the babel-italian typesetting 
-italian.ldf    on input line 51.
+italian.ldf    on input line 52.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -454,7 +454,7 @@ G,.JBIG2,.JB2,.eps]
 File: images/logoPolimi.png Graphic file (type png)
 
 <use images/logoPolimi.png>
-Package pdftex.def Info: images/logoPolimi.png used on input line 62.
+Package pdftex.def Info: images/logoPolimi.png used on input line 63.
 (pdftex.def)             Requested size: 79.29605pt x 77.79044pt.
  [1
 
@@ -467,13 +467,13 @@ Here is how much of TeX's memory you used:
  8374 multiletter control sequences out of 15000+200000
  7581 words of font info for 27 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,7n,43p,779b,353s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,7n,43p,822b,353s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti
 10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Progr
 am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Frontispiece.pdf (1 page, 100128 bytes).
+Output written on Frontispiece.pdf (1 page, 100125 bytes).
 PDF statistics:
  29 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
