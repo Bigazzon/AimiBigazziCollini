@@ -43,7 +43,7 @@
 	bottom=44mm,	% bottom margin (PoliMi=44mm)
 	inner=41mm,		% inner margin (PoliMi=41mm)
 	outer=32mm,		% outer margin (PoliMi=32mm)
-%	bindingoffset=5mm,	% bookbinding margin
+%	bindingoffset=5mm,	% binding margin
 	heightrounded}
 %
 % ------------------------------------------------------------------------ %
@@ -80,7 +80,7 @@
 %
 \usepackage[english]{varioref}		% riferimenti completi, con indicazione della pagina (\vref)
 %
-\usepackage{mparhack,fixltx2e}	% finezze tipografiche (bug fixes di LaTeX)
+\usepackage{mparhack}	% finezze tipografiche (bug fixes di LaTeX)
 %
 \usepackage{relsize}			% make text larger or smaller than the surrounding text
 % 				% \larger[i] \smaller[i]
@@ -97,7 +97,7 @@
 % style=philosophy-modern,	<-- autore-anno (meno anonimo, più immediato e più elegante)
 %
 \usepackage[style=philosophy-modern,	% numeric-comp oppure philosophy-modern,
-	hyperref,			% riferimenti cliccabili
+	hyperref,			% clickable references
 	backref,			% link alle pagine in cui il riferimento è citato
 	natbib, 			% mantiene compatibilità con eventuali comandi natbib
 	backend=biber,		% motore bibliografico (v. ArteLatex di Pantieri)
@@ -132,17 +132,22 @@
 \usepackage{guit}			% simboli del Guit
 %
 \usepackage{fancyhdr}		% testatine e piede personalizzati
-\setlength{\headheight}{15pt}
+\pagestyle{fancy}
+\fancyhead[LO,LE]{\slshape \leftmark}
+\fancyhead[RE,RO]{\slshape \rightmark}
+\fancyfoot[C]{\thepage}
+\renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{\thechapter.\ #1}}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection.\ #1}}
 %
 \usepackage{colortbl}		% per colorare i filetti delle tabelle
 %
-\usepackage[footnote,		% descrizione acronimo fatta a piè di pagina
-			smaller,		% acronimo scritto con dimensione ridotta
-			]{acronym}		% acronimi
+\usepackage[footnote,		% acronym description in the footer
+			smaller,		% smaller acronyms size
+			]{acronym}		% acronyms
 %
 \usepackage{multirow}		% celle tabelle alte più di una riga
 %
-\usepackage{pdfpages}		% inclusione di files pdf esterni
+\usepackage{pdfpages}		% adding external pdf files
 %
 % ------------------------------------------------------------------------ %
 % 	BEGIN DOCUMENT
@@ -159,6 +164,13 @@
 % Frontispiece
 \includepdf[pages={1}]{FrontMatter/Frontispiece.pdf}
 %
+\let\cleardoublepage\clearpage
+%
+\clearpage
+\setcounter{page}{1}
+\tableofcontents
+\pagenumbering{Roman}
+%
 %\input{FrontMatter/Colophon}
 %
 %\input{FrontMatter/Thanks}
@@ -168,8 +180,6 @@
 %\input{FrontMatter/Indexes}
 %
 %\input{FrontMatter/SommarioAbstract}
-%
-\let\cleardoublepage\clearpage
 %
 % ------------------------------------------------------------------------ %
 % 	MAINMATTER
