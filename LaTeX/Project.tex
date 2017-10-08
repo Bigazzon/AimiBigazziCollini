@@ -1,5 +1,5 @@
 % ------------------------------------------------------------------------ %
-% !TEX encoding = UTF-8 Unicode
+% !TEX encoding = UTF-8
 % !TEX TS-program = pdflatex
 % !TEX root = Project.tex
 % !TEX spellcheck = en-EN
@@ -138,6 +138,7 @@
 \fancyfoot[C]{\thepage}
 \renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{\thechapter.\ #1}}{}}
 \renewcommand{\sectionmark}[1]{\markright{\thesection.\ #1}}
+\setlength{\headheight}{15pt}
 %
 \usepackage{colortbl}		% per colorare i filetti delle tabelle
 %
@@ -148,6 +149,8 @@
 \usepackage{multirow}		% celle tabelle alte più di una riga
 %
 \usepackage{pdfpages}		% adding external pdf files
+%
+\renewcommand{\thesection}{\thechapter.\Alph{section}}
 %
 % ------------------------------------------------------------------------ %
 % 	BEGIN DOCUMENT
