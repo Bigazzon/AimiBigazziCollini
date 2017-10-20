@@ -9,6 +9,7 @@ sig User{
 	schedule: some Meeting,
 	owns: seq OwnMean,
 	subscribed: some SharingSystem,
+	provides: some Ticket,
 }
 
 //per controllare che i viaggi avvengano sempre uno dopo l'altro per ogni utente
@@ -17,7 +18,6 @@ sig User{
 //oppure state (come spiego alla classe Travel
 sig Time{
 	state: User -> one Travel, //o some?
-	
 }
 
 /*
@@ -50,7 +50,13 @@ sig Preference{
 	
 }
 
-sig Meeting{}
+sig Meeting{
+	date: Int,
+	place: Stringa,
+	//status non saprei
+	requires: some Travel,
+	locate: Region,
+}
 
 sig Region{}
 
@@ -63,6 +69,7 @@ sig POI{
 } //omettibili
 
 sig Travel{//stato richiesto del tipo Confirmed, MeanRequested, inProgress
+	date: Int,
 	startingTime: Int,
 	endingTime: Int,
 }
@@ -78,7 +85,14 @@ sig PublicMean{}
 
 sig SharingSystem{}
 
-sig Ticket{}
+sig Ticket{
+	id: Stringa, //assumo che sia sempre giusto il biglietto, non faccio controlli a riguardo
+	seasonPass: Bool,
+	purchased: ExternalCompany, //omettibile: non trattiamo questo in alloy in quanto
+												//l'utilità della classe è solo quella di mostrare che 
+												//ci sono aziende esterne che sono in qualche modo
+												//(come spiegato nel documento) associate all'app
+}
 
 sig ExternalCompany{}
 
