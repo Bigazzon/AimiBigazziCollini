@@ -1,0 +1,2 @@
+https://www.car2go.com/api/v2.1/vehicles?loc=milano&oauth_consumer_key=car2gowebsite&format=json
+http://www.sharengo.it/core/publiccars
