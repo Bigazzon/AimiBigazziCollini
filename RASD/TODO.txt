@@ -1,2 +1,2 @@
 - welcome message, after registration, before setup
-- 
+- add recurrent events to mockup and passengers
