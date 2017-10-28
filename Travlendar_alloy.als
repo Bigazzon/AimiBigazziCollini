@@ -185,7 +185,7 @@ sig Travel{//stato richiesto del tipo Confirmed, MeanRequested, inProgress
 }{
 startingTime>0 && date>0
 && endingTime>startingTime && endingTime < associated.startingTime && date = associated.date 
-//start!=end
+start!=end
 //#mean=1
 }
 
@@ -265,7 +265,7 @@ pred show{
 #Meeting=2
 }
 
-run show for 3
+run show for 5
 check oneTravelAtATime
 check deleteAMeeting
 //check addChangesSchedule
