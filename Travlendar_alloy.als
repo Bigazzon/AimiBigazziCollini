@@ -26,7 +26,7 @@ fact uniqueMail {
 	all u1, u2: User | (u1 != u2) => u1.email != u2.email
 }
 
-enum TravelState{Confirmed, MeanRequested, InProgress, NotSpecified}
+enum TravelState{Confirmed, MeanRequested, InProgress, NotSpecified, Deleted}
 
 //per controllare che i viaggi avvengano sempre uno dopo l'altro per ogni utente
 //uso .next dato che ho ordinato Time (planned: User -> one Travel, //o some?)
@@ -40,17 +40,43 @@ fact start {// At the start all travels request a mean
 	all m: Meeting | first.state[m] = NotSpecified
 }
 
+/**
+* Precondition: not m in this.schedule.elems
+*/
 pred User.addMeeting[u: User, m: Meeting] {
-	u.schedule = this.schedule.insert[#this.schedule, m]
+this.schedule = this.schedule.add[m]
 }
 
 /**
 * Precondition: not this.schedule.isEmpty
 */
 pred User.deleteMeeting[u: User, m: Meeting] {
-	m in this.schedule.elems
-	u.schedule = this.schedule.delete[0]
-	not m in u.schedule.elems
+	m in this.schedule.elems &&
+	not this.schedule.hasDups &&
+	this.schedule.lastIdxOf[m]=0
+	u.schedule = this.schedule.delete[this.schedule.idxOf[m]] =>
+	//u.schedule = this.schedule.delete[this.schedule.idxOf[m]]
+	//u.schedule = this.schedule.subseq[0, this.schedule.idxOf[m]-1].append[this.schedule.subseq[this.schedule.idxOf[m]+1, this.schedule.lastIdx]] =>
+    not m in u.schedule.elems
+}
+
+/*assert addChangesSchedule {
+	/*all u1: User, m: Meeting | u1.schedule.isEmpty &&  (u1.addMeeting[u1, m] =>
+	#u1.schedule>0)* /
+	all u1, u2: User, m: Meeting |  #u1.schedule = #u2.schedule && (u1.addMeeting[u1, m] =>
+	#u2.schedule < #u1.schedule)
+}*/
+
+assert deleteAMeeting{
+	one disj u1, u2: User, m: Meeting /*s: u1.schedule*/ | (m in u1.schedule.elems && #u1.schedule = #u2.schedule && u1.deleteMeeting[u1, m]) =>
+	(#u2.schedule > #u1.schedule && m in u2.schedule.elems && m not in u1.schedule.elems)
+}
+
+assert deleteInverseOfAdd {
+	all u: User, m: Meeting, s: u.schedule | u.addMeeting[u, m] and u.deleteMeeting[u, m] =>
+	s = u.schedule
+/*all q0,q1,q2: Queue, e: univ | q0.s.isEmpty and
+q0.add[q1, e] and q1.get[q2, e] => q0.s = q2.s*/
 }
 
 /*
@@ -61,6 +87,12 @@ sig Time{
 	dateTime: 
 }
 */
+
+assert oneTravelAtATime{ 
+	//no disj m1, m2: Meeting | one t: Travel | m1 in t.associated && m2 in t.associated && t.startingTime=t.startingTime && t.endingTime=t.endingTime &&
+	no u: User | one disj t1, t2: Travel | all i: u.schedule.inds  | t1 in u.schedule[i].requires && t2 in u.schedule[i].requires && 
+	t1.date=t2.date && (t1.endingTime>t2.startingTime || t2.endingTime>t1.startingTime)
+}
 
 sig Stringa{}
 
@@ -83,26 +115,26 @@ sig Preference{
 all p: Preference | one u: User | p in u.preferences
 }
 
-/*fact consistentPreferences{
+fact consistentPreferences{
 	all p: Preference | one u: User | p in u.preferences && p.carshare=True <=> #u.subscribed>0
 	&& p.ownMean=True <=> #u.owns>0
 	&& p.bikeshare=True <=> #u.subscribed>0
 	&& p.publicMean=True <=> #u.provides>0
-}*/
+}
 
-fact consistentPreferences{
+/*fact consistentPreferences{
 	all p: Preference | one u: User | p in u.preferences && #u.subscribed>0 => p.carshare=True
 	&&  #u.owns>0 => p.ownMean=True
 	&&  #u.subscribed>0 => p.bikeshare=True
 	&&  #u.provides>0 => p.publicMean=True
-}
+}*/
 
 sig Meeting{
 	date: Int,
 	startingTime: Int,
 	endingTime: Int,
 	requires: set Travel,
-	locate: Region,
+	locate: lone Region,
 }{
 	date>0 &&
 	startingTime>0 &&
@@ -111,11 +143,20 @@ sig Meeting{
 }
 
 fact meetingOfAUser{
-all m: Meeting | one u: User | one i: u.schedule.inds | m in u.schedule[i]
+	all m: Meeting | one u: User | m in u.schedule.elems
 }
 
+fact noDuplicates{
+	all u: User | not u.schedule.hasDups
+}
+
+/*fact meetingOfDifferentUsers{
+	all m1, m2: Meeting | one u: User |
+	(m1 in u.schedule.elems && m2 in u.schedule.elems) => m1.id!=m2.id
+}*/
+
 fact travelsStartAtDifferentTime{
-	no disj t1, t2: Travel | one m: Meeting | m in t1.associated && m in t2.associated && t1.startingTime=t2.startingTime
+	no disj t1, t2: Travel | one m: Meeting | m in t1.associated && m in t2.associated && t1.startingTime=t2.startingTime && t1.endingTime=t2.endingTime
 }
 
 sig Region{
@@ -137,14 +178,14 @@ sig Travel{//stato richiesto del tipo Confirmed, MeanRequested, inProgress
 	//personalMean: set OwnMean,
 	//sharingMean: set SharingSystem,
 	mean: set MeanOfTransp,
-	needed: lone Ticket,	
+	needed: one Ticket,	
 	associated: one Meeting,//aggiornare uml
 	start: one POI,
-	end: one POI
+	end: one POI,
 }{
 startingTime>0 && date>0
-&& endingTime>startingTime && endingTime < associated.startingTime && date = associated.date
-start!=end
+&& endingTime>startingTime && endingTime < associated.startingTime && date = associated.date 
+//start!=end
 //#mean=1
 }
 
@@ -191,12 +232,12 @@ ticketNeeded=True
 }
 
 fact MeanExistsOnlyIfUsed{
-	all m: MeanOfTransp | some t: Travel | /*m in t.personalMean || m in t.sharingMean*/
+	all m: MeanOfTransp | one t: Travel | /*m in t.personalMean || m in t.sharingMean*/
 	m in t.mean	
 }
 
 fact TicketExistsOnlyIfUsed{
-	all tick: Ticket | some t: Travel | tick in t.needed	
+	all tick: Ticket | one t: Travel | tick in t.needed	
 }
 
 sig SharingSystem extends MeanOfTransp{}
@@ -225,9 +266,17 @@ pred show{
 }
 
 run show for 3
-
+check oneTravelAtATime
+check deleteAMeeting
+//check addChangesSchedule
+run deleteMeeting for 1
 run addMeeting for 1
 
-run deleteMeeting for 1
+check deleteInverseOfAdd
+
+
+
+
+
 
 
