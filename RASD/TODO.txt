@@ -1,5 +1,1 @@
-- welcome message, after registration, before setup
-- add recurrent events to mockup and passengers
-- user characteristic, only work or also family
 - sequence diagram of first preferences screen
-- mockup first preferences screen

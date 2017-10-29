@@ -26,7 +26,8 @@ Travlendar+ will choose the most suitable way to get the user to his destination
 Eventually the user will be able to purchase the tickets he will use to reach his destination in-app. The great customizability is one of the main strengths of Travlendar+, being able to fully comply with the user needs. 
 \\
 \\
-**************************************** Analysis of the world and of the shared phenomena
+********************************************************************************************************************* \\
+Analysis of the world and of the shared phenomena
 %
 % ------------------------------------------------------------------------ %
 %
@@ -47,6 +48,9 @@ List of the acronyms used in this paper:
 % ------------------------------------------------------------------------ %
 %
 \section{Revision History}
+\begin{itemize}
+\item 29/10/2017 Version 1.0.0 - First complete drawing up of the RASD
+\end{itemize}
 %
 % ------------------------------------------------------------------------ %
 %
@@ -54,6 +58,10 @@ List of the acronyms used in this paper:
 Documents list:
 \begin{itemize}
 \item Mandatory Project Assignments.pdf
+\item IEEE Std 830-1998 IEEE Recommended Practice for Software Requirements
+Specifications.
+\item Requirement Engineering Part I.pdf
+\item Requirement Engineering Part II.pdf
 \item Requirement Engineering Part III.pdf
 \item RASD sample from Oct. 20 lecture.pdf
 \end{itemize}
@@ -69,6 +77,20 @@ The paper is structured as follows:
 \item Chapter 4: Formal analysis of the system and his functions using Alloy;
 \item Chapter 5: Effort spent by the authors to draw up the document;
 \item Chapter 6: References to the sources used to write down the RASD.
+\end{itemize}
+%
+% ------------------------------------------------------------------------ %
+%
+\section{Used tools}
+The tools used to create this document are:
+\begin{itemize}
+\item StarUML for UML mode;
+\item Alloy Analyzer 4.2 for proving consistency of the model and to challenge it to find counterexamples for our assertions;
+\item Github as version controller and to share documents;
+\item LaTeX for typesetting this document;
+\item Texmaker as editor
+\item Draw.io to create sequence diagrams and state diagrams;
+\item Photoshop for mockups.
 \end{itemize}
 %
 % -----------------------------END------------------------------------- %

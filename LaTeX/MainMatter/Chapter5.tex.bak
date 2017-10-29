@@ -1,5 +1,5 @@
 % ------------------------------------------------------------------------ %
-% !TEX encoding = UTF-8 Unicode
+% !TEX encoding = UTF-8
 % !TEX TS-program = pdflatex
 % !TEX root = ../Project.tex
 % !TEX spellcheck = en-EN
@@ -14,5 +14,34 @@
 \label{cap:effortspent}
 %
 % ------------------------------------------------------------------------ %
+
+\begin{center}
+\def\arraystretch{1.25}
+  \begin{tabular}{ | l | c | c | c |}
+    \hline
+    Date & A. Aimi & R. Bigazzi & F. Collini \\ \hline
+    03/10/17 & 7h & 7h & 7h \\
+    05/10/17 & & 1/2h& \\
+    06/10/17 & & & \\
+    07/10/17 & & 1h & \\
+    08/10/17 & & & \\
+    09/10/17 & & 2h & \\
+    12/10/17 & & 3h & \\
+    14/10/17 & & 1h & \\
+    15/10/17 & & 1/2h & \\
+    18/10/17 & & 6h & \\
+    19/10/17 & & & \\
+    20/10/17 & & & \\
+    23/10/17 & & 4h & \\
+    24/10/17 & & 5h & \\
+    25/10/17 & & 7h & \\
+    26/10/17 & & 2h & \\
+    27/10/17 & & 1/2h & \\
+    28/10/17 & 6h & 8h & 6h \\
+    29/10/17 & & 4h & \\ \hline
+    Tot & & 51,5h & \\ \hline
+  \end{tabular}
+\captionof{table}{Hours of work spent by the authors of the document}
+\end{center}
 %
 % -----------------------------END------------------------------------- %

@@ -14,20 +14,26 @@
 \label{cap:specificrequirements}
 %
 %
-************************************************************* More details on all aspects in Section 2 if they can be useful for the development team
+**************************************************************************************************************************************************************************************************************************************** \\
+More details on all aspects in Section 2 if they can be useful for the development team
 %
 %------------------------------------------------------------------------ %
 \section{External Interface Requirements}
 % ------------------------------------------------------------------------ %
 \subsection{User interfaces}
 The application will be developed as a mobile application for the main mobile operative systems (iOS and Android).
-Its user interface will appear the same to all users, and must be user-friendly and intuitive. To show how the application will look like some mockups of the user interface are present in the document (mockups are realized for iOS operative system).\\
-After downloading the application from the store of the OS. At the first start if the user is not registered, so it is a guest yet, he must sign up. Otherwise he can log in. If he is signing up he will see the registration screenant data (username, password, mail, name, surname, important addresses, trip preferences, ...). It is included also the possibility to sync Travlendar+ with a Google account.
+Its user interface will appear the same to all users, and must be user-friendly and intuitive. To show how the application will look like some mockups of the user interface are present in the document (mockups are realized for iOS operative system).
 \begin{center}
-\includegraphics[scale=2.4]{MainMatter/images/ui/firstscreen}
+\includegraphics[scale=2.4]{MainMatter/images/ui/login}
+\captionof{figure}{Mockup of the login screen}
+\end{center}
+After downloading the application from the store of the OS. At the first start if the user is not registered, so it is a guest yet, he must sign up. Otherwise he can log in. If he is signing up he will see the registration screen.
+\begin{center}
+\includegraphics[scale=2.4]{MainMatter/images/ui/firstsetup}
 \captionof{figure}{Mockup of the configuration screen}
 \end{center}
-Once the application is set, the first screen that will appear to the user at each startup is the main screen that shows up a calendar, where he can add his events.
+The first time the user signs in, the application shows the first setup screen where the user has to insert all his preferences. \\
+Once the application is configured, the first screen that will appear to the user at each startup is the main screen that shows up a calendar, where he can add his events.
 \begin{center}
 \includegraphics[scale=1.2]{MainMatter/images/ui/calendar}
 \captionof{figure}{Mockup of the main screen (calendar)}
@@ -70,10 +76,13 @@ In the future it will employ APIs to buy tickets without using the built-in brow
 The application communicates with the server using the protocol HTTP (port 80).
 %------------------------------------------------------------------------ %
 \section{Functional Requirements}
-********************************************* Definition of use case diagrams, use cases and associated sequence/activity diagrams
+******************************************************************************************************************************************************************************************************* \\
+Definition of use case diagrams, use cases and associated sequence/activity diagrams
 % ------------------------------------------------------------------------ %
-\subsection*{Sequence diagrams}
-
+\subsection*{Use case description}
+In this section some use cases will be described. These use cases can be
+derived from the scenarios and the use case diagram.
+%
 \begin{center}
 \def\arraystretch{1.25}
   \begin{tabular}{ | l | p{0.65\textwidth} | }
@@ -230,7 +239,7 @@ The application communicates with the server using the protocol HTTP (port 80).
 \end{center}
 
 \begin{center}
-\def\arraystretch{1.167}
+\def\arraystretch{1.162}
   \begin{tabular}{ | l | p{0.65\textwidth} | }
     \hline
     Name & Manage trip options (customized trip) \\ \hline
@@ -298,6 +307,7 @@ The application communicates with the server using the protocol HTTP (port 80).
 \includegraphics[scale=0.55]{MainMatter/images/sequencediagrams/reservesharing}
 \captionof{figure}{Sequence diagram of reserve a sharing means of transport}
 \end{center}
+\pagebreak
 %
 %------------------------------------------------------------------------ %
 %
