@@ -34,6 +34,18 @@ Analysis of the world and of the shared phenomena
 \section{Definitions, Acronyms, Abbreviations}
 %
 \subsection{Definitions}
+\begin{itemize}
+\item Application: it depends on context, but often it is referred to Travlendar+;
+\item User: human registered and using Travlendar+;
+\item Guest: human using Travlendar+, but not registered yet;
+\item System: see Application;
+\item Event: often used as a key word referring to the events the user can add on the calendar embedded in Travlendar+;
+\item Trip: often used as a key word referring to the trips alternatives the system processes and suggests the user;
+\item Dynamic event: Event whose location in time can be decided by the application on various factors;
+\item Means of transport: often used as a key word referring to the means of transportation the user can choose in the settings of Travlendar+;
+\item Private transports: often used to mean trains, planes and all private companies transports;
+\item Shared means: used to mean cars and bicycles of car and bike sharing companies.
+\end{itemize}
 %
 \subsection{Acronyms}
 List of the acronyms used in this paper:
@@ -59,7 +71,7 @@ Documents list:
 \begin{itemize}
 \item Mandatory Project Assignments.pdf
 \item IEEE Std 830-1998 IEEE Recommended Practice for Software Requirements
-Specifications.
+Specifications
 \item Requirement Engineering Part I.pdf
 \item Requirement Engineering Part II.pdf
 \item Requirement Engineering Part III.pdf

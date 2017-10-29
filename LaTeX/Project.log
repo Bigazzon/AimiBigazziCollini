@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.5)  29 OCT 2017 14:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.5)  29 OCT 2017 15:02
 entering extended mode
 **./Project.tex
 (Project.tex
@@ -1504,6 +1504,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip90
 )
+Package hyperref Info: Option `colorlinks' set `false' on input line 134.
+
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\bookmark.sty"
 Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
 
@@ -1611,27 +1613,27 @@ File: italian.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 (Project.aux)
 \openout1 = `Project.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 165.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 169.
+LaTeX Font Info:    ... okay on input line 169.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 169.
+LaTeX Font Info:    ... okay on input line 169.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 169.
+LaTeX Font Info:    ... okay on input line 169.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 169.
+LaTeX Font Info:    ... okay on input line 169.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 169.
+LaTeX Font Info:    ... okay on input line 169.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 169.
+LaTeX Font Info:    ... okay on input line 169.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 169.
+LaTeX Font Info:    ... okay on input line 169.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 169.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Info: Redefining \it@ocap on input line 165.
-LaTeX Info: Redefining \it@ccap on input line 165.
-LaTeX Info: Redefining \microtypecontext on input line 165.
+LaTeX Info: Redefining \it@ocap on input line 169.
+LaTeX Info: Redefining \it@ccap on input line 169.
+LaTeX Info: Redefining \microtypecontext on input line 169.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1802,10 +1804,10 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Project.bbl' not found.
 
 No file Project.bbl.
-Package biblatex Info: Reference section=0 on input line 165.
-Package biblatex Info: Reference segment=0 on input line 165.
+Package biblatex Info: Reference section=0 on input line 169.
+Package biblatex Info: Reference segment=0 on input line 169.
 \AtBeginShipoutBox=\box58
-Package hyperref Info: Link coloring OFF on input line 165.
+Package hyperref Info: Link coloring OFF on input line 169.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -1815,42 +1817,42 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 \c@section@level=\count461
 LaTeX Info: Redefining \Ref on input line 515.
 )
-LaTeX Info: Redefining \ref on input line 165.
-LaTeX Info: Redefining \pageref on input line 165.
-LaTeX Info: Redefining \nameref on input line 165.
-LaTeX Info: Redefining \Ref on input line 165.
+LaTeX Info: Redefining \ref on input line 169.
+LaTeX Info: Redefining \pageref on input line 169.
+LaTeX Info: Redefining \nameref on input line 169.
+LaTeX Info: Redefining \Ref on input line 169.
 \c__siunitx_mathsf_int=\count462
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 165.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 169.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 165.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 169.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 165
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 169
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 165
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 169
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 165.
+(Font)              <12> on input line 169.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 165.
+(Font)              <8> on input line 169.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 165.
-LaTeX Font Info:    Try loading font information for U+msa on input line 165.
+(Font)              <6> on input line 169.
+LaTeX Font Info:    Try loading font information for U+msa on input line 169.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1858,7 +1860,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-msa.cfg"
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 165.
+LaTeX Font Info:    Try loading font information for U+msb on input line 169.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1866,7 +1868,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-msb.cfg"
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 165
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 169
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmss.fd"
@@ -1877,7 +1879,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 \c__siunitx_mathtt_int=\count463
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 165
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 169
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmtt.fd"
@@ -1892,11 +1894,11 @@ Package microtype Info: Loading generic protrusion settings for font family
 File: FrontMatter/Frontispiece.pdf Graphic file (type pdf)
 
 <use FrontMatter/Frontispiece.pdf>
-Package pdftex.def Info: FrontMatter/Frontispiece.pdf used on input line 174.
+Package pdftex.def Info: FrontMatter/Frontispiece.pdf used on input line 178.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: FrontMatter/Frontispiece.pdf Graphic file (type pdf)
  <use FrontMatter/Frontispiece.pdf>
-Package pdftex.def Info: FrontMatter/Frontispiece.pdf used on input line 174.
+Package pdftex.def Info: FrontMatter/Frontispiece.pdf used on input line 178.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
 <FrontMatter/Frontispiece.pdf, id=6, page=1, 597.50829pt x 845.0471pt>
@@ -1904,31 +1906,31 @@ File: FrontMatter/Frontispiece.pdf Graphic file (type pdf)
 
 <use FrontMatter/Frontispiece.pdf, page 1>
 Package pdftex.def Info: FrontMatter/Frontispiece.pdf, page1 used on input line
- 174.
+ 178.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: FrontMatter/Frontispiece.pdf Graphic file (type pdf)
 
 <use FrontMatter/Frontispiece.pdf, page 1>
 Package pdftex.def Info: FrontMatter/Frontispiece.pdf, page1 used on input line
- 174.
+ 178.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: FrontMatter/Frontispiece.pdf Graphic file (type pdf)
 
 <use FrontMatter/Frontispiece.pdf, page 1>
 Package pdftex.def Info: FrontMatter/Frontispiece.pdf, page1 used on input line
- 174.
+ 178.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: FrontMatter/Frontispiece.pdf Graphic file (type pdf)
 
 <use FrontMatter/Frontispiece.pdf, page 1>
 Package pdftex.def Info: FrontMatter/Frontispiece.pdf, page1 used on input line
- 174.
+ 178.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: FrontMatter/Frontispiece.pdf Graphic file (type pdf)
 
 <use FrontMatter/Frontispiece.pdf, page 1>
 Package pdftex.def Info: FrontMatter/Frontispiece.pdf, page1 used on input line
- 174.
+ 178.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [1
 
@@ -1938,7 +1940,7 @@ Package pdftex.def Info: FrontMatter/Frontispiece.pdf, page1 used on input line
  (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.34 ... {3.E.1}Reliability}{36}{subsection.3.5.1}
+l.34 ... {3.E.1}Reliability}{37}{subsection.3.5.1}
                                                    [1
 
 
@@ -1960,18 +1962,17 @@ Overfull \hbox (284.9066pt too wide) in paragraph at lines 24--34
 *********************************************************** 
  []
 
-[1
-
-
-]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 41.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 38.
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 41.
- [2])
-(MainMatter/Chapter2.tex [3]
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 38.
+ [1
+
+
+] [2] [3])
+(MainMatter/Chapter2.tex [4]
 Chapter 2.
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--29
@@ -1995,7 +1996,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--29
 
  []
 
-<MainMatter/images/usecases/guest.jpg, id=145, 572.1375pt x 286.06876pt>
+<MainMatter/images/usecases/guest.jpg, id=150, 572.1375pt x 286.06876pt>
 File: MainMatter/images/usecases/guest.jpg Graphic file (type jpg)
 
 <use MainMatter/images/usecases/guest.jpg>
@@ -2003,7 +2004,7 @@ Package pdftex.def Info: MainMatter/images/usecases/guest.jpg used on input lin
 e 31.
 (pdftex.def)             Requested size: 425.6556pt x 212.8312pt.
 
-<MainMatter/images/usecases/user.jpg, id=146, 705.837pt x 352.9185pt>
+<MainMatter/images/usecases/user.jpg, id=151, 705.837pt x 352.9185pt>
 File: MainMatter/images/usecases/user.jpg Graphic file (type jpg)
 
 <use MainMatter/images/usecases/user.jpg>
@@ -2019,14 +2020,14 @@ See the caption package documentation for explanation.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4
+ [5
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5 <./MainMatter/images/usecases/guest.jpg> <./MainMatter/images/usecases/user
+ [6 <./MainMatter/images/usecases/guest.jpg> <./MainMatter/images/usecases/user
 .jpg>]
-<MainMatter/images/uml/uml.jpg, id=157, 2647.8925pt x 1656.1875pt>
+<MainMatter/images/uml/uml.jpg, id=161, 2647.8925pt x 1656.1875pt>
 File: MainMatter/images/uml/uml.jpg Graphic file (type jpg)
 
 <use MainMatter/images/uml/uml.jpg>
@@ -2038,7 +2039,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 43.
 See the caption package documentation for explanation.
 
-[6
+[7
 
  <./MainMatter/images/uml/uml.jpg>]
 Overfull \hbox (436.71622pt too wide) in paragraph at lines 50--54
@@ -2060,18 +2061,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--54
 
 Underfull \vbox (badness 1590) has occurred while \output is active []
 
- [7
+ [8
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [8]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11]
 Overfull \hbox (5.66463pt too wide) in paragraph at lines 138--138
 []\T1/lmr/bx/n/17.28 Assumptions, De-pen-den-cies, Con-straints 
  []
@@ -2088,7 +2089,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 139--12
 
  []
 
-[11]
+[12]
 Chapter 3.
 
 Overfull \hbox (966.40549pt too wide) in paragraph at lines 17--21
@@ -2098,7 +2099,7 @@ Overfull \hbox (966.40549pt too wide) in paragraph at lines 17--21
 ****************** 
  []
 
-<MainMatter/images/ui/login.jpg, id=185, 116.01872pt x 193.36455pt>
+<MainMatter/images/ui/login.jpg, id=189, 116.01872pt x 193.36455pt>
 File: MainMatter/images/ui/login.jpg Graphic file (type jpg)
 
 <use MainMatter/images/ui/login.jpg>
@@ -2113,10 +2114,10 @@ See the caption package documentation for explanation.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12
+ [13
 
 ]
-<MainMatter/images/ui/firstsetup.jpg, id=190, 116.01872pt x 193.36455pt>
+<MainMatter/images/ui/firstsetup.jpg, id=194, 116.01872pt x 193.36455pt>
 File: MainMatter/images/ui/firstsetup.jpg Graphic file (type jpg)
 
 <use MainMatter/images/ui/firstsetup.jpg>
@@ -2132,8 +2133,8 @@ See the caption package documentation for explanation.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13 <./MainMatter/images/ui/login.jpg>]
-<MainMatter/images/ui/calendar.jpg, id=196, 232.03746pt x 386.7291pt>
+ [14 <./MainMatter/images/ui/login.jpg>]
+<MainMatter/images/ui/calendar.jpg, id=200, 232.03746pt x 386.7291pt>
 File: MainMatter/images/ui/calendar.jpg Graphic file (type jpg)
 
 <use MainMatter/images/ui/calendar.jpg>
@@ -2146,8 +2147,8 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 39.
 See the caption package documentation for explanation.
 
-[14 <./MainMatter/images/ui/firstsetup.jpg>]
-<MainMatter/images/ui/newevent.jpg, id=202, 116.01872pt x 193.36455pt>
+[15 <./MainMatter/images/ui/firstsetup.jpg>]
+<MainMatter/images/ui/newevent.jpg, id=206, 116.01872pt x 193.36455pt>
 File: MainMatter/images/ui/newevent.jpg Graphic file (type jpg)
 
 <use MainMatter/images/ui/newevent.jpg>
@@ -2160,8 +2161,8 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 44.
 See the caption package documentation for explanation.
 
-[15 <./MainMatter/images/ui/calendar.jpg>]
-<MainMatter/images/ui/tripsscreen.jpg, id=208, 232.03746pt x 386.7291pt>
+[16 <./MainMatter/images/ui/calendar.jpg>]
+<MainMatter/images/ui/tripsscreen.jpg, id=213, 232.03746pt x 386.7291pt>
 File: MainMatter/images/ui/tripsscreen.jpg Graphic file (type jpg)
 
 <use MainMatter/images/ui/tripsscreen.jpg>
@@ -2174,8 +2175,8 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 49.
 See the caption package documentation for explanation.
 
-[16 <./MainMatter/images/ui/newevent.jpg>]
-<MainMatter/images/ui/journeydetails.jpg, id=215, 116.01872pt x 193.36455pt>
+[17 <./MainMatter/images/ui/newevent.jpg>]
+<MainMatter/images/ui/journeydetails.jpg, id=219, 116.01872pt x 193.36455pt>
 File: MainMatter/images/ui/journeydetails.jpg Graphic file (type jpg)
 
 <use MainMatter/images/ui/journeydetails.jpg>
@@ -2191,9 +2192,9 @@ See the caption package documentation for explanation.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17 <./MainMatter/images/ui/tripsscreen.jpg>] [18 <./MainMatter/images/ui/jour
+ [18 <./MainMatter/images/ui/tripsscreen.jpg>] [19 <./MainMatter/images/ui/jour
 neydetails.jpg>]
-<MainMatter/images/ui/journeychoose.jpg, id=226, 116.01872pt x 193.36455pt>
+<MainMatter/images/ui/journeychoose.jpg, id=230, 116.01872pt x 193.36455pt>
 File: MainMatter/images/ui/journeychoose.jpg Graphic file (type jpg)
 
 <use MainMatter/images/ui/journeychoose.jpg>
@@ -2211,7 +2212,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--67
 
  []
 
-[19 <./MainMatter/images/ui/journeychoose.jpg>]
+[20 <./MainMatter/images/ui/journeychoose.jpg>]
 Overfull \hbox (776.40825pt too wide) in paragraph at lines 78--81
 []\T1/lmr/m/n/12 (-20) ********************************************************
 *******************************************************************************
@@ -2226,8 +2227,8 @@ See the caption package documentation for explanation.
 
 Underfull \vbox (badness 1997) has occurred while \output is active []
 
- [20]
-<MainMatter/images/sequencediagrams/signup.jpg, id=237, 724.7075pt x 985.6825pt
+ [21]
+<MainMatter/images/sequencediagrams/signup.jpg, id=241, 724.7075pt x 985.6825pt
 >
 File: MainMatter/images/sequencediagrams/signup.jpg Graphic file (type jpg)
  <use MainMatter/images/sequencediagrams/signup.jpg>
@@ -2248,8 +2249,8 @@ Overfull \hbox (11.63287pt too wide) in paragraph at lines 113--114
 
 Underfull \vbox (badness 2426) has occurred while \output is active []
 
- [21]
-<MainMatter/images/statecharts/signup.jpg, id=243, 501.875pt x 622.325pt>
+ [22]
+<MainMatter/images/statecharts/signup.jpg, id=248, 501.875pt x 622.325pt>
 File: MainMatter/images/statecharts/signup.jpg Graphic file (type jpg)
 
 <use MainMatter/images/statecharts/signup.jpg>
@@ -2267,7 +2268,7 @@ Overfull \hbox (14.54305pt too wide) in paragraph at lines 118--119
  [] 
  []
 
-[22 <./MainMatter/images/sequencediagrams/signup.jpg>]
+[23 <./MainMatter/images/sequencediagrams/signup.jpg>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 141.
@@ -2276,8 +2277,8 @@ See the caption package documentation for explanation.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23 <./MainMatter/images/statecharts/signup.jpg>]
-<MainMatter/images/sequencediagrams/signin.jpg, id=255, 724.7075pt x 624.3325pt
+ [24 <./MainMatter/images/statecharts/signup.jpg>]
+<MainMatter/images/sequencediagrams/signin.jpg, id=259, 724.7075pt x 624.3325pt
 >
 File: MainMatter/images/sequencediagrams/signin.jpg Graphic file (type jpg)
  <use MainMatter/images/sequencediagrams/signin.jpg>
@@ -2298,7 +2299,7 @@ Overfull \hbox (11.63287pt too wide) in paragraph at lines 145--146
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [24]
+ [25]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 170.
@@ -2307,8 +2308,8 @@ See the caption package documentation for explanation.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25 <./MainMatter/images/sequencediagrams/signin.jpg>]
-<MainMatter/images/sequencediagrams/add.jpg, id=266, 743.77875pt x 1035.87pt>
+ [26 <./MainMatter/images/sequencediagrams/signin.jpg>]
+<MainMatter/images/sequencediagrams/add.jpg, id=270, 743.77875pt x 1035.87pt>
 File: MainMatter/images/sequencediagrams/add.jpg Graphic file (type jpg)
 
 <use MainMatter/images/sequencediagrams/add.jpg>
@@ -2329,17 +2330,17 @@ Overfull \hbox (22.12209pt too wide) in paragraph at lines 174--175
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26]
+ [27]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [27 <./MainMatter/images/sequencediagrams/add.jpg>]
+ [28 <./MainMatter/images/sequencediagrams/add.jpg>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 196.
 See the caption package documentation for explanation.
 
 
-<MainMatter/images/sequencediagrams/delete.jpg, id=277, 703.62875pt x 636.3775p
+<MainMatter/images/sequencediagrams/delete.jpg, id=282, 703.62875pt x 636.3775p
 t>
 File: MainMatter/images/sequencediagrams/delete.jpg Graphic file (type jpg)
  <use MainMatter/images/sequencediagrams/delete.jpg>
@@ -2355,7 +2356,7 @@ See the caption package documentation for explanation.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [28]
+ [29]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 232.
@@ -2364,11 +2365,11 @@ See the caption package documentation for explanation.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29 <./MainMatter/images/sequencediagrams/delete.jpg>]
+ [30 <./MainMatter/images/sequencediagrams/delete.jpg>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30]
-<MainMatter/images/sequencediagrams/arrange.jpg, id=294, 763.85374pt x 1076.02p
+ [31]
+<MainMatter/images/sequencediagrams/arrange.jpg, id=298, 763.85374pt x 1076.02p
 t>
 File: MainMatter/images/sequencediagrams/arrange.jpg Graphic file (type jpg)
  <use MainMatter/images/sequencediagrams/arrange.jpg>
@@ -2389,7 +2390,7 @@ Overfull \hbox (9.47948pt too wide) in paragraph at lines 236--237
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31 <./MainMatter/images/sequencediagrams/arrange.jpg>]
+ [32 <./MainMatter/images/sequencediagrams/arrange.jpg>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 269.
@@ -2398,8 +2399,8 @@ See the caption package documentation for explanation.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32]
-<MainMatter/images/sequencediagrams/managetrip.jpg, id=305, 724.7075pt x 1106.1
+ [33]
+<MainMatter/images/sequencediagrams/managetrip.jpg, id=309, 724.7075pt x 1106.1
 325pt>
 File: MainMatter/images/sequencediagrams/managetrip.jpg Graphic file (type jpg)
 
@@ -2416,14 +2417,14 @@ See the caption package documentation for explanation.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33 <./MainMatter/images/sequencediagrams/managetrip.jpg>]
+ [34 <./MainMatter/images/sequencediagrams/managetrip.jpg>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 302.
 See the caption package documentation for explanation.
 
 
-<MainMatter/images/sequencediagrams/reservesharing.jpg, id=311, 617.30624pt x 8
+<MainMatter/images/sequencediagrams/reservesharing.jpg, id=316, 617.30624pt x 8
 85.3075pt>
 File: MainMatter/images/sequencediagrams/reservesharing.jpg Graphic file (type 
 jpg)
@@ -2440,17 +2441,17 @@ See the caption package documentation for explanation.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34]
+ [35]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35 <./MainMatter/images/sequencediagrams/reservesharing.jpg>]
+ [36 <./MainMatter/images/sequencediagrams/reservesharing.jpg>]
 Overfull \hbox (492.52866pt too wide) in paragraph at lines 338--341
 []\T1/lmr/m/n/12 (-20) ********************************************************
 *******************************************************************************
 *************** 
  []
 
-[36]) (MainMatter/Chapter4.tex [37]
+[37]) (MainMatter/Chapter4.tex [38]
 Chapter 4.
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 19.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
@@ -2466,19 +2467,19 @@ LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <8> not available
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 1.
 
-[38
+[39
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [39]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [40]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [41])
-<MainMatter/images/alloy/results.png, id=575, 444.66125pt x 586.19pt>
+ [41]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [42])
+<MainMatter/images/alloy/results.png, id=579, 444.66125pt x 586.19pt>
 File: MainMatter/images/alloy/results.png Graphic file (type png)
 
 <use MainMatter/images/alloy/results.png>
@@ -2491,8 +2492,8 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 26.
 See the caption package documentation for explanation.
 
-[42 <./MainMatter/images/alloy/results.png>]
-<MainMatter/images/alloy/world.png, id=587, 1755.55875pt x 660.4675pt>
+[43 <./MainMatter/images/alloy/results.png>]
+<MainMatter/images/alloy/world.png, id=591, 1755.55875pt x 660.4675pt>
 File: MainMatter/images/alloy/world.png Graphic file (type png)
 
 <use MainMatter/images/alloy/world.png>
@@ -2505,10 +2506,10 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 34.
 See the caption package documentation for explanation.
 
-[43
+[44
 
  <./MainMatter/images/alloy/world.png (PNG copy)>]) (MainMatter/Chapter5.tex [4
-4
+5
 
 ]
 Chapter 5.
@@ -2517,23 +2518,23 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 44.
 See the caption package documentation for explanation.
 
-[45
+[46
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 227.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 227.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 231.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 231.
  (Project.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 227.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 227.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 231.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 231.
 Package logreq Info: Writing requests to 'Project.run.xml'.
 \openout1 = `Project.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33598 strings out of 493323
- 604779 string characters out of 3139066
- 1423118 words of memory out of 3000000
- 36184 multiletter control sequences out of 15000+200000
+ 33600 strings out of 493323
+ 604800 string characters out of 3139066
+ 1422145 words of memory out of 3000000
+ 36185 multiletter control sequences out of 15000+200000
  597911 words of font info for 112 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,18n,77p,10452b,3585s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2554,9 +2555,9 @@ ic/lm/lmro12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
 MiKTeX 2.9/fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
 type1/public/lm/lmtt8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
 tti10.pfb>
-Output written on Project.pdf (48 pages, 3235588 bytes).
+Output written on Project.pdf (49 pages, 3237995 bytes).
 PDF statistics:
- 840 PDF objects out of 1000 (max. 8388607)
- 342 named destinations out of 1000 (max. 500000)
+ 846 PDF objects out of 1000 (max. 8388607)
+ 343 named destinations out of 1000 (max. 500000)
  21433 words of extra memory for PDF output out of 24883 (max. 10000000)
 
