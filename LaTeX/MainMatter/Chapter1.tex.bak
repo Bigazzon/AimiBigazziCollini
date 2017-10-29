@@ -90,6 +90,7 @@ The tools used to create this document are:
 \item LaTeX for typesetting this document;
 \item Texmaker as editor
 \item Draw.io to create sequence diagrams and state diagrams;
+\item Signavio to create use case diagrams;
 \item Photoshop for mockups.
 \end{itemize}
 %

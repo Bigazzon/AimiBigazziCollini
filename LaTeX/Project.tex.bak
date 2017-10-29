@@ -152,6 +152,10 @@
 %
 \usepackage{pdfpages}		% adding external pdf files
 %
+\usepackage[dvipsnames]{xcolor} %alloy
+\usepackage{listings}
+\usepackage{alloy-style}
+%
 \renewcommand{\thesection}{\thechapter.\Alph{section}}
 %
 % ------------------------------------------------------------------------ %
@@ -202,7 +206,7 @@
 %
 \input{MainMatter/Chapter5}
 %
-\input{MainMatter/Chapter6}
+%\input{MainMatter/Chapter6}
 %
 %\appendix
 %

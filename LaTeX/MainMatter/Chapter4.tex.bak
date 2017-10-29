@@ -14,6 +14,27 @@
 \label{cap:formalanalysis}
 %
 % ------------------------------------------------------------------------ %
+%
+\section{Modeling}
+\lstinputlisting[language=alloy]{MainMatter/alloy.als}
+%
+% ------------------------------------------------------------------------ %
+%
+\begin{center}
+\vspace{10mm}
+\includegraphics[scale=0.8]{MainMatter/images/alloy/results}
+\captionof{figure}{Result of Alloy Analyzer}
+\end{center}
+%
+\begin{landscape}
+\section{World generated}
+\begin{center}
+\thispagestyle{empty}
+\makebox[\textwidth][c]{\includegraphics[width=2.3\textwidth]{MainMatter/images/alloy/world}}
+\captionof{figure}{World generated}
+\end{center}
+\end{landscape}
+%
 \section{Alloy vs UML}
 What we’ve modelled of the UML in alloy: \\
 The goal of modelling in alloy is to describe some aspect of the system (but not the entire system), constrain it to exclude ill-formed examples and check properties about it.

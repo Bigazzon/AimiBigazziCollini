@@ -13,6 +13,8 @@
 \contentsline {section}{\numberline {1.G}Used tools}{3}{section.1.7}
 \contentsline {chapter}{\numberline {2}Overall Description}{4}{chapter.2}
 \contentsline {section}{\numberline {2.A}Product Perspective}{4}{section.2.1}
+\contentsline {subsection}{\numberline {2.A.1}Use cases}{5}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.A.2}Class diagram}{6}{subsection.2.1.2}
 \contentsline {section}{\numberline {2.B}Product Functions}{7}{section.2.2}
 \contentsline {section}{\numberline {2.C}User Characteristics}{11}{section.2.3}
 \contentsline {section}{\numberline {2.D}Assumptions, Dependencies, Constraints}{11}{section.2.4}
@@ -35,6 +37,7 @@
 \contentsline {subsection}{\numberline {3.E.4}Maintainability}{37}{subsection.3.5.4}
 \contentsline {subsection}{\numberline {3.E.5}Portability}{37}{subsection.3.5.5}
 \contentsline {chapter}{\numberline {4}Formal Analysis}{38}{chapter.4}
-\contentsline {section}{\numberline {4.A}Alloy vs UML}{38}{section.4.1}
-\contentsline {chapter}{\numberline {5}Effort Spent}{39}{chapter.5}
-\contentsline {chapter}{\numberline {6}References}{40}{chapter.6}
+\contentsline {section}{\numberline {4.A}Modeling}{38}{section.4.1}
+\contentsline {section}{\numberline {4.B}World generated}{43}{section.4.2}
+\contentsline {section}{\numberline {4.C}Alloy vs UML}{44}{section.4.3}
+\contentsline {chapter}{\numberline {5}Effort Spent}{45}{chapter.5}

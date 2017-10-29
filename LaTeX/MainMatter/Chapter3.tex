@@ -30,9 +30,9 @@ Its user interface will appear the same to all users, and must be user-friendly 
 After downloading the application from the store of the OS. At the first start if the user is not registered, so it is a guest yet, he must sign up. Otherwise he can log in. If he is signing up he will see the registration screen.
 \begin{center}
 \includegraphics[scale=2.4]{MainMatter/images/ui/firstsetup}
-\captionof{figure}{Mockup of the configuration screen}
+\captionof{figure}{Mockup of the first configuration screen}
 \end{center}
-The first time the user signs in, the application shows the first setup screen where the user has to insert all his preferences. \\
+The first time the user signs in, the application shows the first setup screen where the user has to insert all his preferences. The light blue texts open other screen where more are given for the specific setting. \\\
 Once the application is configured, the first screen that will appear to the user at each startup is the main screen that shows up a calendar, where he can add his events.
 \begin{center}
 \includegraphics[scale=1.2]{MainMatter/images/ui/calendar}
@@ -70,7 +70,6 @@ The main hardware interface used by the system is the GPS, it's used in order to
 \subsection{Software interfaces}
 The mobile application is made up using mainly two Google APIs: Google Maps and Google Calendar. It relies also on other APIs: one for the weather forecast and one for each car sharing, bike sharing service and for the public mobility.
 It is developed for the use on the two most common mobile operating systems: Android and iOS.
-In the future it will employ APIs to buy tickets without using the built-in browser.
 %
 \subsection{Communication interfaces}
 The application communicates with the server using the protocol HTTP (port 80).
@@ -95,7 +94,7 @@ derived from the scenarios and the use case diagram.
 					& 2.	The system shows the Login screen to the guest \\
 					& 3.	The Guest clicks on “Sign Up” \\
 					& 4.	The System shows to the Guest the Registration page \\
-					& 5.	The guest inserts his personal details (name, surname, date of birth, …) and his trip preferences (important addresses, owned car, season ticket, …) \\
+					& 5.	The guest inserts his personal details (name, surname, …) and his trip preferences (important addresses, owned car, season ticket, …) \\
 					& 6.	The guest reads and accepts the user agreement \\
 					& 7.	The guest taps on “Confirm” \\
 					& 8.	The system check the correctness of the data and sends an email and a sms with a verification link \\
