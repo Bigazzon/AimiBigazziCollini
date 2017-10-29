@@ -1,2 +1,3 @@
 - sequence diagram of first preferences screen
 - add non functional requirements to performance.
+- actors identification
