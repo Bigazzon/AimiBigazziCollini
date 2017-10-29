@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.5)  9 OCT 2017 00:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.5)  29 OCT 2017 02:29
 entering extended mode
 **./Project.tex
 (Project.tex
@@ -1951,44 +1951,385 @@ Package pdftex.def Info: FrontMatter/Frontispiece.pdf, page1 used on input line
 (MainMatter/Chapter1.tex
 Chapter 1.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 24--33
 
- [1
+ []
+
+[1
 
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 37.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 40.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 37.
-)
-(MainMatter/Chapter2.tex [2]
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 40.
+ [2])
+(MainMatter/Chapter2.tex [3]
 Chapter 2.
 
-Overfull \hbox (2.81935pt too wide) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 19--29
+
+ []
+
+
+Overfull \hbox (2.81935pt too wide) in paragraph at lines 40--40
 []\T1/lmr/bx/n/17.28 Assumptions, De-pen-den-cies, Con-straints 
  []
 
-) (MainMatter/Chapter3.tex [3
+) (MainMatter/Chapter3.tex [4
 
-]
+] [5]
 Chapter 3.
-) (MainMatter/Chapter4.tex [4
+
+Overfull \hbox (7.54477pt too wide) in paragraph at lines 17--20
+[]\T1/lmr/m/n/12 (-20) ********************************************************
+***** More
+ []
+
+<MainMatter/images/ui/firstscreen.jpg, id=119, 116.01872pt x 193.36455pt>
+File: MainMatter/images/ui/firstscreen.jpg Graphic file (type jpg)
+
+<use MainMatter/images/ui/firstscreen.jpg>
+Package pdftex.def Info: MainMatter/images/ui/firstscreen.jpg used on input lin
+e 27.
+(pdftex.def)             Requested size: 278.44353pt x 464.07256pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 28.
+See the caption package documentation for explanation.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6
 
 ]
+<MainMatter/images/ui/calendar.jpg, id=124, 232.03746pt x 386.7291pt>
+File: MainMatter/images/ui/calendar.jpg Graphic file (type jpg)
+
+<use MainMatter/images/ui/calendar.jpg>
+Package pdftex.def Info: MainMatter/images/ui/calendar.jpg used on input line 3
+2.
+(pdftex.def)             Requested size: 278.44354pt x 464.07259pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 33.
+See the caption package documentation for explanation.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7 <./MainMatter/images/ui/firstscreen.jpg>]
+<MainMatter/images/ui/newevent.jpg, id=130, 116.01872pt x 193.36455pt>
+File: MainMatter/images/ui/newevent.jpg Graphic file (type jpg)
+
+<use MainMatter/images/ui/newevent.jpg>
+Package pdftex.def Info: MainMatter/images/ui/newevent.jpg used on input line 3
+7.
+(pdftex.def)             Requested size: 278.44353pt x 464.07256pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 38.
+See the caption package documentation for explanation.
+
+[8 <./MainMatter/images/ui/calendar.jpg>]
+<MainMatter/images/ui/tripsscreen.jpg, id=136, 232.03746pt x 386.7291pt>
+File: MainMatter/images/ui/tripsscreen.jpg Graphic file (type jpg)
+
+<use MainMatter/images/ui/tripsscreen.jpg>
+Package pdftex.def Info: MainMatter/images/ui/tripsscreen.jpg used on input lin
+e 42.
+(pdftex.def)             Requested size: 278.44354pt x 464.07259pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 43.
+See the caption package documentation for explanation.
+
+[9 <./MainMatter/images/ui/newevent.jpg>]
+<MainMatter/images/ui/journeydetails.jpg, id=142, 116.01872pt x 193.36455pt>
+File: MainMatter/images/ui/journeydetails.jpg Graphic file (type jpg)
+
+<use MainMatter/images/ui/journeydetails.jpg>
+Package pdftex.def Info: MainMatter/images/ui/journeydetails.jpg used on input 
+line 47.
+(pdftex.def)             Requested size: 278.44353pt x 464.07256pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 48.
+See the caption package documentation for explanation.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10 <./MainMatter/images/ui/tripsscreen.jpg>] [11 <./MainMatter/images/ui/jour
+neydetails.jpg>]
+<MainMatter/images/ui/journeychoose.jpg, id=154, 116.01872pt x 193.36455pt>
+File: MainMatter/images/ui/journeychoose.jpg Graphic file (type jpg)
+
+<use MainMatter/images/ui/journeychoose.jpg>
+Package pdftex.def Info: MainMatter/images/ui/journeychoose.jpg used on input l
+ine 53.
+(pdftex.def)             Requested size: 278.44353pt x 464.07256pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 54.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--61
+
+ []
+
+[12 <./MainMatter/images/ui/journeychoose.jpg>]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 101.
+See the caption package documentation for explanation.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13]
+<MainMatter/images/sequencediagrams/signup.jpg, id=164, 724.7075pt x 985.6825pt
+>
+File: MainMatter/images/sequencediagrams/signup.jpg Graphic file (type jpg)
+ <use MainMatter/images/sequencediagrams/signup.jpg>
+Package pdftex.def Info: MainMatter/images/sequencediagrams/signup.jpg used on 
+input line 105.
+(pdftex.def)             Requested size: 398.59036pt x 542.12704pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 106.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (8.7876pt too wide) in paragraph at lines 105--106
+ [] 
+ []
+
+
+Underfull \vbox (badness 6725) has occurred while \output is active []
+
+ [14]
+<MainMatter/images/statecharts/signup.jpg, id=171, 501.875pt x 622.325pt>
+File: MainMatter/images/statecharts/signup.jpg Graphic file (type jpg)
+
+<use MainMatter/images/statecharts/signup.jpg>
+Package pdftex.def Info: MainMatter/images/statecharts/signup.jpg used on input
+ line 110.
+(pdftex.def)             Requested size: 401.50053pt x 497.86067pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 111.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (11.69777pt too wide) in paragraph at lines 110--111
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15 <./MainMatter/images/sequencediagrams/signup.jpg>]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 133.
+See the caption package documentation for explanation.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16 <./MainMatter/images/statecharts/signup.jpg>]
+<MainMatter/images/sequencediagrams/signin.jpg, id=182, 724.7075pt x 624.3325pt
+>
+File: MainMatter/images/sequencediagrams/signin.jpg Graphic file (type jpg)
+ <use MainMatter/images/sequencediagrams/signin.jpg>
+Package pdftex.def Info: MainMatter/images/sequencediagrams/signin.jpg used on 
+input line 137.
+(pdftex.def)             Requested size: 398.59036pt x 343.38394pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 138.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (8.7876pt too wide) in paragraph at lines 137--138
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 162.
+See the caption package documentation for explanation.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18 <./MainMatter/images/sequencediagrams/signin.jpg>]
+<MainMatter/images/sequencediagrams/add.jpg, id=194, 743.77875pt x 1035.87pt>
+File: MainMatter/images/sequencediagrams/add.jpg Graphic file (type jpg)
+
+<use MainMatter/images/sequencediagrams/add.jpg>
+Package pdftex.def Info: MainMatter/images/sequencediagrams/add.jpg used on inp
+ut line 166.
+(pdftex.def)             Requested size: 409.07957pt x 569.73026pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 167.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (19.27681pt too wide) in paragraph at lines 166--167
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20 <./MainMatter/images/sequencediagrams/add.jpg>]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 188.
+See the caption package documentation for explanation.
+
+
+<MainMatter/images/sequencediagrams/delete.jpg, id=205, 703.62875pt x 636.3775p
+t>
+File: MainMatter/images/sequencediagrams/delete.jpg Graphic file (type jpg)
+ <use MainMatter/images/sequencediagrams/delete.jpg>
+Package pdftex.def Info: MainMatter/images/sequencediagrams/delete.jpg used on 
+input line 192.
+(pdftex.def)             Requested size: 386.99701pt x 350.0087pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 193.
+See the caption package documentation for explanation.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 224.
+See the caption package documentation for explanation.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22 <./MainMatter/images/sequencediagrams/delete.jpg>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23]
+<MainMatter/images/sequencediagrams/arrange.jpg, id=222, 763.85374pt x 1076.02p
+t>
+File: MainMatter/images/sequencediagrams/arrange.jpg Graphic file (type jpg)
+ <use MainMatter/images/sequencediagrams/arrange.jpg>
+Package pdftex.def Info: MainMatter/images/sequencediagrams/arrange.jpg used on
+ input line 228.
+(pdftex.def)             Requested size: 396.43697pt x 558.45pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 229.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (6.6342pt too wide) in paragraph at lines 228--229
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24 <./MainMatter/images/sequencediagrams/arrange.jpg>]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 261.
+See the caption package documentation for explanation.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25]
+<MainMatter/images/sequencediagrams/managetrip.jpg, id=232, 724.7075pt x 1106.1
+325pt>
+File: MainMatter/images/sequencediagrams/managetrip.jpg Graphic file (type jpg)
+
+ <use MainMatter/images/sequencediagrams/managetrip.jpg>
+Package pdftex.def Info: MainMatter/images/sequencediagrams/managetrip.jpg used
+ on input line 265.
+(pdftex.def)             Requested size: 373.95284pt x 570.77013pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 266.
+See the caption package documentation for explanation.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27 <./MainMatter/images/sequencediagrams/managetrip.jpg>]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 294.
+See the caption package documentation for explanation.
+
+
+<MainMatter/images/sequencediagrams/reservesharing.jpg, id=243, 617.30624pt x 8
+85.3075pt>
+File: MainMatter/images/sequencediagrams/reservesharing.jpg Graphic file (type 
+jpg)
+ <use MainMatter/images/sequencediagrams/reservesharing.jpg>
+Package pdftex.def Info: MainMatter/images/sequencediagrams/reservesharing.jpg 
+used on input line 298.
+(pdftex.def)             Requested size: 339.51949pt x 486.92062pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 299.
+See the caption package documentation for explanation.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28])
+(MainMatter/Chapter4.tex [29 <./MainMatter/images/sequencediagrams/reserveshari
+ng.jpg>]
 Chapter 4.
-) (MainMatter/Chapter5.tex [5
+) (MainMatter/Chapter5.tex [30
 
 ]
 Chapter 5.
-) (MainMatter/Chapter6.tex [6
+) (MainMatter/Chapter6.tex [31
 
 ]
 Chapter 6.
-) [7
+) [32
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 221.
@@ -2001,13 +2342,13 @@ Package logreq Info: Writing requests to 'Project.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32518 strings out of 493323
- 589960 string characters out of 3139066
- 1204332 words of memory out of 3000000
- 35513 multiletter control sequences out of 15000+200000
- 581484 words of font info for 73 fonts, out of 3000000 for 9000
+ 32733 strings out of 493323
+ 594320 string characters out of 3139066
+ 1208411 words of memory out of 3000000
+ 35613 multiletter control sequences out of 15000+200000
+ 583486 words of font info for 95 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,18n,50p,10452b,1878s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,18n,77p,10452b,2101s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Fil
 es/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
@@ -2018,9 +2359,9 @@ cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12
 Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/lm/lmro12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /lm/lmsy10.pfb>
-Output written on Project.pdf (9 pages, 211042 bytes).
+Output written on Project.pdf (34 pages, 2216967 bytes).
 PDF statistics:
- 198 PDF objects out of 1000 (max. 8388607)
- 29 named destinations out of 1000 (max. 500000)
- 17061 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 380 PDF objects out of 1000 (max. 8388607)
+ 82 named destinations out of 1000 (max. 500000)
+ 17179 words of extra memory for PDF output out of 17280 (max. 10000000)
 
