@@ -15,12 +15,11 @@
 %
 % ------------------------------------------------------------------------ %
 %
-\section{Purpose}
 This document is the Requirement Analysis and Specification Document (RASD) of a mobile application called Travlendar+. The purpose of the document is to show the requirements and specification of the new application, considering various aspects like the stakeholders' needs, domain properties and constrains which the system-to-be is subject to.
 %
 % ------------------------------------------------------------------------ %
 %
-\section{Scope}
+\section{Description of the given problem}
 Travlendar+ is a mobile, calendar-based application that helps the user to manage his appointments and to a greater extent set up the trip to his destination, choosing the best means of transport depending on his needs. \\
 Travlendar+ will choose the most suitable way to get the user to his destination between a large pool of options, considering public transportation, personal vehicles, locating cars or bikes of sharing services and walking to the destination. It will take account of weather, traffic, possible passengers if any, the user-set break times and the potential will to minimize the carbon footprint of the trip, always focusing on taking him on time to his scheduled appointments. \\
 Eventually the user will be able to purchase the tickets he will use to reach his destination in-app. The great customizability is one of the main strengths of Travlendar+, being able to fully comply with the user needs. 
@@ -31,13 +30,13 @@ Analysis of the world and of the shared phenomena
 %
 % ------------------------------------------------------------------------ %
 %
-\section{Definitions, Acronyms, Abbreviations}
+\section{Definitions and Acronyms}
 %
 \subsection{Definitions}
 \begin{itemize}
 \item Application: it depends on context, but often it is referred to Travlendar+;
-\item User: human registered and using Travlendar+;
-\item Guest: human using Travlendar+, but not registered yet;
+\item User: see 2.A - Actors;
+\item Guest: see 2.A - Actors;
 \item System: see Application;
 \item Event: often used as a key word referring to the events the user can add on the calendar embedded in Travlendar+;
 \item Trip: often used as a key word referring to the trips alternatives the system processes and suggests the user;
@@ -72,9 +71,6 @@ Documents list:
 \item Mandatory Project Assignments.pdf
 \item IEEE Std 830-1998 IEEE Recommended Practice for Software Requirements
 Specifications
-\item Requirement Engineering Part I.pdf
-\item Requirement Engineering Part II.pdf
-\item Requirement Engineering Part III.pdf
 \item RASD sample from Oct. 20 lecture.pdf
 \end{itemize}
 %

@@ -128,6 +128,10 @@
 \usepackage{eurosym}		% simbolo dell'euro
 %
 \usepackage{hyperref}		% collegamenti ipertestuali
+\hypersetup{
+    colorlinks = false,
+    linkbordercolor = {white}
+}
 %
 \usepackage{bookmark}		% gestione segnalibri del PDF
 %
@@ -206,7 +210,9 @@
 %
 \input{MainMatter/Chapter5}
 %
-%\input{MainMatter/Chapter6}
+\input{MainMatter/Chapter6}
+%
+\input{MainMatter/Chapter7}
 %
 %\appendix
 %
