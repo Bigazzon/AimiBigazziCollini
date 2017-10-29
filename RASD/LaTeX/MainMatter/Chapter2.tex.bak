@@ -61,11 +61,6 @@ Travlendar+ will be developed as a mobile application that relies on the use of 
 Its user interface will be composed by two main tabs, one with a calendar, to schedule user's events and the other one with a map to manage the movements of the user. \\
 In the future the system will employ APIs to buy tickets without using the built-in browser and it will have a service of technical assistance via chat. \\
 The application will not provide any API for integration with other systems.
-\\
-\\
-**************************************************************************************************************************************************************************** \\
-Further details on the shared phenomena and a domain model (class diagrams and statecharts)
-\\
 %
 % ------------------------------------------------------------------------ %
 %

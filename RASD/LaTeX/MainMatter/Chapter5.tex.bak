@@ -230,7 +230,7 @@ derived from the scenarios and the use case diagram.
 \includegraphics[scale=0.516]{MainMatter/images/sequencediagrams/managetrip}
 \captionof{figure}{Sequence diagram of manage trip options}
 \end{center}
-
+%
 \begin{center}
 \def\arraystretch{1.25}
   \begin{tabular}{ | l | p{0.65\textwidth} | }
@@ -258,17 +258,45 @@ derived from the scenarios and the use case diagram.
   \end{tabular}
 \captionof{table}{Use case for reserve a sharing means of transport}
 \end{center}
-
+%
 \begin{center}
 \includegraphics[scale=0.55]{MainMatter/images/sequencediagrams/reservesharing}
 \captionof{figure}{Sequence diagram of reserve a sharing means of transport}
 \end{center}
-
+%
 
 \begin{center}
-\includegraphics[scale=0.55]{MainMatter/images/activitydiagram/addmodify}
-\captionof{figure}{Activity diagram of the system point of view}
+\def\arraystretch{1.25}
+  \begin{tabular}{ | l | p{0.65\textwidth} | }
+    \hline
+    Name & Modify user preferences\\ \hline
+    Primary Actor & User \\ \hline
+    Preconditions & The user wants to change his preferences and the system is showing the main screen (calendar)\\ \hline
+    Postconditions & The new user preferences are saved \\ \hline
+    Flow of events  & 1. The user presses the the menu button \\ 
+					& 2. The system shows the menu sidebar \\
+					& 3. The user clicks on preferences menu \\
+					& 4. The system shows the preference menu \\
+					& 5. The user modify his preferences \\
+					& 6. The user clicks on confirm changes \\
+					& 7. The system shows the main screen \\  \hline
+    Exceptions  & /
+ \\
+ \hline
+  \end{tabular}
+\captionof{table}{Use case for modify user preferences}
 \end{center}
+%
+\begin{center}
+\includegraphics[scale=0.55]{MainMatter/images/sequencediagrams/preferences}
+\captionof{figure}{Sequence diagram of modify user preferences use case}
+\end{center}
+%
+\begin{center}
+\makebox[\textwidth][c]{\includegraphics[width=0.485\textwidth]{MainMatter/images/activitydiagrams/addmodify}}
+\captionof{figure}{System's point of view activity diagram of an event addition and trip option choice}
+\end{center}
+%
 \pagebreak
 %
 % -----------------------------END------------------------------------- %

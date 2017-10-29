@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.5)  29 OCT 2017 17:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.5)  29 OCT 2017 19:23
 entering extended mode
 **./Project.tex
 (Project.tex
@@ -1951,23 +1951,12 @@ l.34 ...ine {3.F.3}Security}{20}{subsection.3.6.3}
  [1]
 (MainMatter/Chapter1.tex
 Chapter 1.
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--33
-
- []
-
-
-Overfull \hbox (284.9066pt too wide) in paragraph at lines 23--33
-\T1/lmr/m/n/12 (-20) **********************************************************
-*********************************************************** 
- []
-
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 37.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 33.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 37.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 33.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1979,24 +1968,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Chapter 2.
 [5
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 60--72
-
- []
-
-
-Overfull \hbox (601.56866pt too wide) in paragraph at lines 60--72
-\T1/lmr/m/n/12 (-20) **********************************************************
-*******************************************************************************
-*********************************** 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--72
-
- []
-
-[6]) (MainMatter/Chapter3.tex [7]
+]) (MainMatter/Chapter3.tex [6] [7]
 Chapter 3.
 [8
 
@@ -2111,11 +2083,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 149--154
 Chapter 4.
 [21
 
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [22]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+] [22]
+Underfull \vbox (badness 7238) has occurred while \output is active []
 
  [23])
 (MainMatter/Chapter5.tex [24]
@@ -2391,26 +2360,47 @@ See the caption package documentation for explanation.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [41]
-<MainMatter/images/activitydiagrams/addmodify.jpg, id=398, 343.2825pt x 1010.77
-625pt>
-File: MainMatter/images/activitydiagrams/addmodify.jpg Graphic file (type jpg)
- <use MainMatter/images/activitydiagrams/addmodify.jpg>
-Package pdftex.def Info: MainMatter/images/activitydiagrams/addmodify.jpg used 
-on input line 268.
-(pdftex.def)             Requested size: 187.6746pt x 552.59724pt.
-
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 269.
+(caption)                particular \caption on input line 287.
 See the caption package documentation for explanation.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [42 <./MainMatter/images/sequencediagrams/reservesharing.jpg>])
+ [42 <./MainMatter/images/sequencediagrams/reservesharing.jpg>]
+<MainMatter/images/sequencediagrams/preferences.jpg, id=403, 614.295pt x 533.99
+5pt>
+File: MainMatter/images/sequencediagrams/preferences.jpg Graphic file (type jpg
+)
+ <use MainMatter/images/sequencediagrams/preferences.jpg>
+Package pdftex.def Info: MainMatter/images/sequencediagrams/preferences.jpg use
+d on input line 291.
+(pdftex.def)             Requested size: 337.86328pt x 293.69815pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 292.
+See the caption package documentation for explanation.
+
+
+<MainMatter/images/activitydiagrams/addmodify.jpg, id=404, 343.2825pt x 1010.77
+625pt>
+File: MainMatter/images/activitydiagrams/addmodify.jpg Graphic file (type jpg)
+ <use MainMatter/images/activitydiagrams/addmodify.jpg>
+Package pdftex.def Info: MainMatter/images/activitydiagrams/addmodify.jpg used 
+on input line 296.
+(pdftex.def)             Requested size: 187.6746pt x 552.59724pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 297.
+See the caption package documentation for explanation.
+
+[43 <./MainMatter/images/sequencediagrams/preferences.jpg>])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [43 <./MainMatter/images/activitydiagrams/addmodify.jpg>] (MainMatter/Chapter6
+ [44 <./MainMatter/images/activitydiagrams/addmodify.jpg>] (MainMatter/Chapter6
 .tex
 Chapter 6.
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 19.
@@ -2422,24 +2412,13 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
  (MainMatter/alloy.als
-LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <8> not available
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
 (Font)              Font shape `T1/lmtt/b/n' tried instead on input line 1.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 1.
 
-[44
+[45
 
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [45]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [46]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [47])
-<MainMatter/images/alloy/results.png, id=648, 444.66125pt x 586.19pt>
+] [46] [47] [48] [49] [50])
+<MainMatter/images/alloy/results.png, id=644, 444.66125pt x 586.19pt>
 File: MainMatter/images/alloy/results.png Graphic file (type png)
 
 <use MainMatter/images/alloy/results.png>
@@ -2452,8 +2431,12 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 26.
 See the caption package documentation for explanation.
 
-[48 <./MainMatter/images/alloy/results.png>]
-<MainMatter/images/alloy/world.png, id=660, 1755.55875pt x 660.4675pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [51]
+[52 <./MainMatter/images/alloy/results.png>]
+<MainMatter/images/alloy/world.png, id=679, 1755.55875pt x 660.4675pt>
 File: MainMatter/images/alloy/world.png Graphic file (type png)
 
 <use MainMatter/images/alloy/world.png>
@@ -2466,10 +2449,10 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 34.
 See the caption package documentation for explanation.
 
-[49
+[53
 
  <./MainMatter/images/alloy/world.png (PNG copy)>]) (MainMatter/Chapter7.tex [5
-0
+4
 
 ]
 Chapter 7.
@@ -2478,7 +2461,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 44.
 See the caption package documentation for explanation.
 
-[51
+[55
 
 ])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 233.
@@ -2486,42 +2469,36 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 233.
  (Project.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 233.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 233.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package logreq Info: Writing requests to 'Project.run.xml'.
 \openout1 = `Project.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33678 strings out of 493323
- 605698 string characters out of 3139066
- 1422229 words of memory out of 3000000
- 36202 multiletter control sequences out of 15000+200000
- 598093 words of font info for 114 fonts, out of 3000000 for 9000
+ 33668 strings out of 493323
+ 605681 string characters out of 3139066
+ 1330237 words of memory out of 3000000
+ 36191 multiletter control sequences out of 15000+200000
+ 588066 words of font info for 106 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,18n,77p,10452b,3585s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,18n,77p,10452b,3560s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/M
-iKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
-nc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec
+iKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
+nc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy
 .enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Progr
 am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 
 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm
-/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/lm/lmro12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/lm/lmtt8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
-tti10.pfb>
-Output written on Project.pdf (54 pages, 3283387 bytes).
+/lmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/lm/lmro12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtk10.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/lm/lmtti10.pfb>
+Output written on Project.pdf (58 pages, 3294829 bytes).
 PDF statistics:
- 932 PDF objects out of 1000 (max. 8388607)
- 392 named destinations out of 1000 (max. 500000)
- 21462 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 948 PDF objects out of 1000 (max. 8388607)
+ 398 named destinations out of 1000 (max. 500000)
+ 19419 words of extra memory for PDF output out of 20736 (max. 10000000)
 
