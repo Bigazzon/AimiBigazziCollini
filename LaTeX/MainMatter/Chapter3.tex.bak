@@ -107,6 +107,11 @@ The application communicates with the server using the protocol HTTP (port 80).
 \end{center}
 
 \begin{center}
+\includegraphics[scale=0.8]{MainMatter/images/statecharts/signup}
+\captionof{figure}{Statechart of sign up process}
+\end{center}
+
+\begin{center}
 \def\arraystretch{1.25}
   \begin{tabular}{ | l | p{0.65\textwidth} | }
     \hline
@@ -248,8 +253,8 @@ The application communicates with the server using the protocol HTTP (port 80).
 					& 14.	The system shows the Main screen to the user
 \\
  \hline
-    Exceptions  & 1.	User chooses to go only by foot but the distance to walk is wider than the one set in the preferences \\
-				& 2.	The yser chooses to go only by bike, but the time is not inside the interval chosen in the preferences
+    Exceptions  & 1.	The user chooses to go only by foot but the distance to walk is wider than the one set in the preferences \\
+				& 2.	The user chooses to go only by bike, but the time is not inside the interval chosen in the preferences
  \\
  \hline
   \end{tabular}
@@ -267,21 +272,21 @@ The application communicates with the server using the protocol HTTP (port 80).
     \hline
     Name & Reserve a sharing means of transport \\ \hline
     Primary Actor & User \\ \hline
-    Preconditions & The User wants to reserve a sharing means of transport. He is already logged in into the service and the System is showing the calendar \\ \hline
-    Postconditions & The User has reserved the means of transport chosen and receives a confirmation via mail \\ \hline
-    Flow of events  & 1.	The User clicks on “Trips” (the button with the airplane) \\
-					& 2.	The System shows the Trips screen \\
-					& 3.	The User chooses the event that is active \\
-					& 4.	The System shows the Trip details screen \\
-					& 5.	The User clicks on the “Sharing” button \\
-					& 6.	The System requests the position of the means of transport to all External Sharing Services and it shows to the User \\
-					& 7.	The User chooses a means of transport \\
-					& 8.	The System opens the application of the Sharing Service chosen \\
-					& 9.	The User reserves the means of transport \\
+    Preconditions & The user wants to reserve a sharing means of transport. He is already logged in into the service and the system is showing the calendar \\ \hline
+    Postconditions & The user has reserved the means of transport chosen and receives a confirmation via mail \\ \hline
+    Flow of events  & 1.	The user clicks on “Trips” (the button with the airplane) \\
+					& 2.	The system shows the Trips screen \\
+					& 3.	The user chooses the event that is active \\
+					& 4.	The system shows the Trip details screen \\
+					& 5.	The user clicks on the “Sharing” button \\
+					& 6.	The system requests the position of the means of transport to all External Sharing Services and it shows to the user \\
+					& 7.	The user chooses a means of transport \\
+					& 8.	The system opens the application of the Sharing Service chosen \\
+					& 9.	The user reserves the means of transport \\
 					& 10.	The Sharing Service application sends a confirmation via mail and shows the means of transport reserved \\
  \hline
     Exceptions  & 1.	The Sharing Service application is not installed on the device \\
-				& 2.	The User doesn’t have an account for the Sharing Service
+				& 2.	The user doesn’t have an account for the Sharing Service
 
  \\
  \hline
@@ -293,4 +298,26 @@ The application communicates with the server using the protocol HTTP (port 80).
 \includegraphics[scale=0.55]{MainMatter/images/sequencediagrams/reservesharing}
 \captionof{figure}{Sequence diagram of reserve a sharing means of transport}
 \end{center}
+%
+%------------------------------------------------------------------------ %
+%
+\section{Performance Requirements}
+********************************************* 
+% ------------------------------------------------------------------------ %
+%
+\section{Design Constraints}
+
+\subsection{Standards compliance}
+
+\subsection{Hardware limitations}
+
+\subsection{Any other constraint}
+
+% ------------------------------------------------------------------------ %
+%
+\section{Software System Attributes}
+%
+% ------------------------------------------------------------------------ %
+
+
 % -----------------------------END------------------------------------- %

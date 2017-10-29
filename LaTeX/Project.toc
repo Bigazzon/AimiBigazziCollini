@@ -22,6 +22,12 @@
 \contentsline {subsection}{\numberline {3.A.3}Software interfaces}{13}{subsection.3.1.3}
 \contentsline {subsection}{\numberline {3.A.4}Communication interfaces}{13}{subsection.3.1.4}
 \contentsline {section}{\numberline {3.B}Functional Requirements}{13}{section.3.2}
-\contentsline {chapter}{\numberline {4}Formal Analysis}{30}{chapter.4}
-\contentsline {chapter}{\numberline {5}Effort Spent}{31}{chapter.5}
-\contentsline {chapter}{\numberline {6}References}{32}{chapter.6}
+\contentsline {section}{\numberline {3.C}Performance Requirements}{29}{section.3.3}
+\contentsline {section}{\numberline {3.D}Design Constraints}{30}{section.3.4}
+\contentsline {subsection}{\numberline {3.D.1}Standards compliance}{30}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.D.2}Hardware limitations}{30}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.D.3}Any other constraint}{30}{subsection.3.4.3}
+\contentsline {section}{\numberline {3.E}Software System Attributes}{30}{section.3.5}
+\contentsline {chapter}{\numberline {4}Formal Analysis}{31}{chapter.4}
+\contentsline {chapter}{\numberline {5}Effort Spent}{32}{chapter.5}
+\contentsline {chapter}{\numberline {6}References}{33}{chapter.6}
