@@ -181,8 +181,8 @@
 %
 \clearpage
 \setcounter{page}{1}
-\tableofcontents
 \pagenumbering{Roman}
+\tableofcontents
 %
 %\input{FrontMatter/Colophon}
 %
