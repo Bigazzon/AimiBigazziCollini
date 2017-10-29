@@ -41,8 +41,8 @@
 \geometry{verbose,	% verbose = displays the parameter results on the terminal
 	top=43mm,		% upper margin (PoliMi=43mm)
 	bottom=44mm,	% bottom margin (PoliMi=44mm)
-	inner=41mm,		% inner margin (PoliMi=41mm)
-	outer=32mm,		% outer margin (PoliMi=32mm)
+	inner=37mm,		% inner margin (PoliMi=41mm)
+	outer=37mm,		% outer margin (PoliMi=32mm)
 %	bindingoffset=5mm,	% binding margin
 	heightrounded}
 %

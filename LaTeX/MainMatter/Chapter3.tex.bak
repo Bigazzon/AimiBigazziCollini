@@ -230,7 +230,7 @@ The application communicates with the server using the protocol HTTP (port 80).
 \end{center}
 
 \begin{center}
-\def\arraystretch{1.25}
+\def\arraystretch{1.167}
   \begin{tabular}{ | l | p{0.65\textwidth} | }
     \hline
     Name & Manage trip options (customized trip) \\ \hline
@@ -302,21 +302,56 @@ The application communicates with the server using the protocol HTTP (port 80).
 %------------------------------------------------------------------------ %
 %
 \section{Performance Requirements}
-********************************************* 
+\begin{enumerate}
+\item The system must support 500 contemporary requests;
+\item 90\% of requests must be processed in less than 3 seconds;
+\item 100\% of requests must be processed in less than 10 seconds;
+\item There’s no limit on the number of users;
+\item The system will compute continuously all the travel options for the different users, but must find a free time spot to answer to new requests.
+\end{enumerate}
+%
 % ------------------------------------------------------------------------ %
 %
 \section{Design Constraints}
-
+%
 \subsection{Standards compliance}
-
+This document follows the IEEE Standard 830-1998 [7] for the format of Software Requirements specifications.
+%
 \subsection{Hardware limitations}
-
+The user will need a smartphone with at least:
+\begin{itemize}
+\item 3G connection
+\item GPS
+\item Enough storage on smartphone
+\end{itemize}
+%
 \subsection{Any other constraint}
-
+******************************************************************************************************************************************************
 % ------------------------------------------------------------------------ %
 %
 \section{Software System Attributes}
 %
+\subsection{Reliability}
+The system shall have an availability of 99.95\% (“three and a half nines”). It means that the application will have at most a downtime per year of 4.38 hours.
+%
+\subsection{Availability}
+The system will run 24/7 in order to make the user manage his events and the trips between them whenever he wants. Furthermore any kind of update must not stop the normal running of operations.
+%
+\subsection{Security}
+The main security features of the application are:  
+\begin{itemize}
+\item All the meetings and the trips must be kept private.
+\item Enable SSL/TLS encryption protocol for Client-Server communication to protect from internal and external threats, depending on user’s network configuration. Enabling SSL/TLS ensures the confidentiality, authentication, and integrity of session data.
+\item Insecure communication channels will lead to a refuse for the client’s request.
+\item Passwords must be encrypted, hashed and salted before they could be stored in the databases.
+\item Users can access in reading or in writing on only a limited set of data.
+\end{itemize}
+%
+\subsection{Maintainability}
+The application code will be well documented to let future developers understand how it work and to make them able to modify it.
+%
+\subsection{Portability}
+The application will be available for the two most common mobile operating systems: Android and iOS.
 % ------------------------------------------------------------------------ %
 
 
