@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.5)  29 OCT 2017 19:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.5)  29 OCT 2017 19:43
 entering extended mode
 **./Project.tex
 (Project.tex
@@ -1936,19 +1936,14 @@ Package pdftex.def Info: FrontMatter/Frontispiece.pdf, page1 used on input line
 
 
  <./FrontMatter/Frontispiece.pdf{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex
-.map}>] (Project.tocpdfTeX warning (ext4): destination with the same identifier
- (name{page.i}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.34 ...ine {3.F.3}Security}{20}{subsection.3.6.3}
-                                                   [1
+.map}>] (Project.toc [1
 
 
 ])
 \tf@toc=\write5
 \openout5 = `Project.toc'.
 
- [1]
+ [2]
 (MainMatter/Chapter1.tex
 Chapter 1.
 LaTeX Font Info:    Try loading font information for OMS+lmr on input line 33.
@@ -1973,7 +1968,7 @@ Chapter 3.
 [8
 
 ] [9] [10]
-<MainMatter/images/ui/login.jpg, id=221, 116.01872pt x 193.36455pt>
+<MainMatter/images/ui/login.jpg, id=222, 116.01872pt x 193.36455pt>
 File: MainMatter/images/ui/login.jpg Graphic file (type jpg)
 
 <use MainMatter/images/ui/login.jpg>
@@ -1986,7 +1981,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 115.
 See the caption package documentation for explanation.
 
-<MainMatter/images/ui/firstsetup.jpg, id=222, 116.01872pt x 193.36455pt>
+<MainMatter/images/ui/firstsetup.jpg, id=223, 116.01872pt x 193.36455pt>
 File: MainMatter/images/ui/firstsetup.jpg Graphic file (type jpg)
 
 <use MainMatter/images/ui/firstsetup.jpg>
@@ -2000,7 +1995,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 [11 <./MainMatter/images/ui/login.jpg>]
-<MainMatter/images/ui/calendar.jpg, id=228, 232.03746pt x 386.7291pt>
+<MainMatter/images/ui/calendar.jpg, id=229, 232.03746pt x 386.7291pt>
 File: MainMatter/images/ui/calendar.jpg Graphic file (type jpg)
 
 <use MainMatter/images/ui/calendar.jpg>
@@ -2014,7 +2009,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 [12 <./MainMatter/images/ui/firstsetup.jpg>]
-<MainMatter/images/ui/newevent.jpg, id=234, 116.01872pt x 193.36455pt>
+<MainMatter/images/ui/newevent.jpg, id=235, 116.01872pt x 193.36455pt>
 File: MainMatter/images/ui/newevent.jpg Graphic file (type jpg)
 
 <use MainMatter/images/ui/newevent.jpg>
@@ -2028,7 +2023,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 [13 <./MainMatter/images/ui/calendar.jpg>]
-<MainMatter/images/ui/tripsscreen.jpg, id=240, 232.03746pt x 386.7291pt>
+<MainMatter/images/ui/tripsscreen.jpg, id=241, 232.03746pt x 386.7291pt>
 File: MainMatter/images/ui/tripsscreen.jpg Graphic file (type jpg)
 
 <use MainMatter/images/ui/tripsscreen.jpg>
@@ -2042,7 +2037,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 [14 <./MainMatter/images/ui/newevent.jpg>]
-<MainMatter/images/ui/journeydetails.jpg, id=246, 116.01872pt x 193.36455pt>
+<MainMatter/images/ui/journeydetails.jpg, id=247, 116.01872pt x 193.36455pt>
 File: MainMatter/images/ui/journeydetails.jpg Graphic file (type jpg)
 
 <use MainMatter/images/ui/journeydetails.jpg>
@@ -2060,7 +2055,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [15 <./MainMatter/images/ui/tripsscreen.jpg>] [16 <./MainMatter/images/ui/jour
 neydetails.jpg>]
-<MainMatter/images/ui/journeychoose.jpg, id=258, 116.01872pt x 193.36455pt>
+<MainMatter/images/ui/journeychoose.jpg, id=259, 116.01872pt x 193.36455pt>
 File: MainMatter/images/ui/journeychoose.jpg Graphic file (type jpg)
 
 <use MainMatter/images/ui/journeychoose.jpg>
@@ -2089,7 +2084,7 @@ Underfull \vbox (badness 7238) has occurred while \output is active []
  [23])
 (MainMatter/Chapter5.tex [24]
 Chapter 5.
-<MainMatter/images/usecases/guest.jpg, id=299, 572.1375pt x 286.06876pt>
+<MainMatter/images/usecases/guest.jpg, id=300, 572.1375pt x 286.06876pt>
 File: MainMatter/images/usecases/guest.jpg Graphic file (type jpg)
 
 <use MainMatter/images/usecases/guest.jpg>
@@ -2102,7 +2097,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 22.
 See the caption package documentation for explanation.
 
-<MainMatter/images/usecases/user.jpg, id=300, 705.837pt x 352.9185pt>
+<MainMatter/images/usecases/user.jpg, id=301, 705.837pt x 352.9185pt>
 File: MainMatter/images/usecases/user.jpg Graphic file (type jpg)
 
 <use MainMatter/images/usecases/user.jpg>
@@ -2124,7 +2119,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [26 <./MainMatter/images/usecases/user.jpg>]
-<MainMatter/images/uml/uml.jpg, id=311, 2647.8925pt x 1656.1875pt>
+<MainMatter/images/uml/uml.jpg, id=312, 2647.8925pt x 1656.1875pt>
 File: MainMatter/images/uml/uml.jpg Graphic file (type jpg)
 
 <use MainMatter/images/uml/uml.jpg>
@@ -2147,7 +2142,7 @@ See the caption package documentation for explanation.
 [28
 
 ]
-<MainMatter/images/sequencediagrams/signup.jpg, id=323, 724.7075pt x 985.6825pt
+<MainMatter/images/sequencediagrams/signup.jpg, id=324, 724.7075pt x 985.6825pt
 >
 File: MainMatter/images/sequencediagrams/signup.jpg Graphic file (type jpg)
  <use MainMatter/images/sequencediagrams/signup.jpg>
@@ -2165,7 +2160,7 @@ Overfull \hbox (11.63287pt too wide) in paragraph at lines 70--71
  [] 
  []
 
-<MainMatter/images/statecharts/signup.jpg, id=324, 501.875pt x 622.325pt>
+<MainMatter/images/statecharts/signup.jpg, id=325, 501.875pt x 622.325pt>
 File: MainMatter/images/statecharts/signup.jpg Graphic file (type jpg)
 
 <use MainMatter/images/statecharts/signup.jpg>
@@ -2196,7 +2191,7 @@ See the caption package documentation for explanation.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [30 <./MainMatter/images/statecharts/signup.jpg>]
-<MainMatter/images/sequencediagrams/signin.jpg, id=335, 724.7075pt x 624.3325pt
+<MainMatter/images/sequencediagrams/signin.jpg, id=336, 724.7075pt x 624.3325pt
 >
 File: MainMatter/images/sequencediagrams/signin.jpg Graphic file (type jpg)
  <use MainMatter/images/sequencediagrams/signin.jpg>
@@ -2227,7 +2222,7 @@ See the caption package documentation for explanation.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [32 <./MainMatter/images/sequencediagrams/signin.jpg>]
-<MainMatter/images/sequencediagrams/add.jpg, id=346, 743.77875pt x 1035.87pt>
+<MainMatter/images/sequencediagrams/add.jpg, id=347, 743.77875pt x 1035.87pt>
 File: MainMatter/images/sequencediagrams/add.jpg Graphic file (type jpg)
 
 <use MainMatter/images/sequencediagrams/add.jpg>
@@ -2258,7 +2253,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 
-<MainMatter/images/sequencediagrams/delete.jpg, id=358, 703.62875pt x 636.3775p
+<MainMatter/images/sequencediagrams/delete.jpg, id=359, 703.62875pt x 636.3775p
 t>
 File: MainMatter/images/sequencediagrams/delete.jpg Graphic file (type jpg)
  <use MainMatter/images/sequencediagrams/delete.jpg>
@@ -2287,7 +2282,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [37]
-<MainMatter/images/sequencediagrams/arrange.jpg, id=374, 763.85374pt x 1076.02p
+<MainMatter/images/sequencediagrams/arrange.jpg, id=375, 763.85374pt x 1076.02p
 t>
 File: MainMatter/images/sequencediagrams/arrange.jpg Graphic file (type jpg)
  <use MainMatter/images/sequencediagrams/arrange.jpg>
@@ -2318,7 +2313,7 @@ See the caption package documentation for explanation.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [39]
-<MainMatter/images/sequencediagrams/managetrip.jpg, id=385, 724.7075pt x 1106.1
+<MainMatter/images/sequencediagrams/managetrip.jpg, id=386, 724.7075pt x 1106.1
 325pt>
 File: MainMatter/images/sequencediagrams/managetrip.jpg Graphic file (type jpg)
 
@@ -2342,7 +2337,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 
-<MainMatter/images/sequencediagrams/reservesharing.jpg, id=392, 617.30624pt x 8
+<MainMatter/images/sequencediagrams/reservesharing.jpg, id=393, 617.30624pt x 8
 85.3075pt>
 File: MainMatter/images/sequencediagrams/reservesharing.jpg Graphic file (type 
 jpg)
@@ -2369,7 +2364,7 @@ See the caption package documentation for explanation.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [42 <./MainMatter/images/sequencediagrams/reservesharing.jpg>]
-<MainMatter/images/sequencediagrams/preferences.jpg, id=403, 614.295pt x 533.99
+<MainMatter/images/sequencediagrams/preferences.jpg, id=404, 614.295pt x 533.99
 5pt>
 File: MainMatter/images/sequencediagrams/preferences.jpg Graphic file (type jpg
 )
@@ -2384,7 +2379,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 
-<MainMatter/images/activitydiagrams/addmodify.jpg, id=404, 343.2825pt x 1010.77
+<MainMatter/images/activitydiagrams/addmodify.jpg, id=405, 343.2825pt x 1010.77
 625pt>
 File: MainMatter/images/activitydiagrams/addmodify.jpg Graphic file (type jpg)
  <use MainMatter/images/activitydiagrams/addmodify.jpg>
@@ -2418,7 +2413,7 @@ LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
 [45
 
 ] [46] [47] [48] [49] [50])
-<MainMatter/images/alloy/results.png, id=644, 444.66125pt x 586.19pt>
+<MainMatter/images/alloy/results.png, id=645, 444.66125pt x 586.19pt>
 File: MainMatter/images/alloy/results.png Graphic file (type png)
 
 <use MainMatter/images/alloy/results.png>
@@ -2436,7 +2431,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [51]
 [52 <./MainMatter/images/alloy/results.png>]
-<MainMatter/images/alloy/world.png, id=679, 1755.55875pt x 660.4675pt>
+<MainMatter/images/alloy/world.png, id=680, 1755.55875pt x 660.4675pt>
 File: MainMatter/images/alloy/world.png Graphic file (type png)
 
 <use MainMatter/images/alloy/world.png>
@@ -2466,7 +2461,12 @@ See the caption package documentation for explanation.
 ])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 233.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 233.
- (Project.aux)
+ (Project.aux
+
+Package mparhack Warning: Marginpars may have changed.
+(mparhack)                Rerun to get them right.
+
+)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 233.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 233.
 Package logreq Info: Writing requests to 'Project.run.xml'.
@@ -2474,10 +2474,10 @@ Package logreq Info: Writing requests to 'Project.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33668 strings out of 493323
- 605681 string characters out of 3139066
+ 33670 strings out of 493323
+ 605702 string characters out of 3139066
  1330237 words of memory out of 3000000
- 36191 multiletter control sequences out of 15000+200000
+ 36192 multiletter control sequences out of 15000+200000
  588066 words of font info for 106 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,18n,77p,10452b,3560s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2496,9 +2496,9 @@ ogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX
 ublic/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtk10.p
 fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/lm/lmtti10.pfb>
-Output written on Project.pdf (58 pages, 3294829 bytes).
+Output written on Project.pdf (58 pages, 3294925 bytes).
 PDF statistics:
- 948 PDF objects out of 1000 (max. 8388607)
- 398 named destinations out of 1000 (max. 500000)
+ 949 PDF objects out of 1000 (max. 8388607)
+ 399 named destinations out of 1000 (max. 500000)
  19419 words of extra memory for PDF output out of 20736 (max. 10000000)
 
