@@ -1,2 +1,0 @@
-- sequence diagram of first preferences screen
-
