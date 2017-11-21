@@ -1,5 +1,6 @@
 RASD:
 - aggiungere scelta default per aggiunta evento tramite Google Calendar
+- le preferenze di viaggio di un evento ripetuto sono comuni 
 
 DD:
 - file da salvare su DB: informazioni e preferenze utenti, eventi e viaggi. 
