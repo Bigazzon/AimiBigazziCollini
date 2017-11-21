@@ -1,0 +1,8 @@
+- trip planner
+	- https://developers.google.com/maps/
+	- future consequent events feasibility with chosen means
+	  https://productforums.google.com/forum/#!topic/maps/iVaKdxUhuMw
+	- go home choice between events
+- sharing means' trip_time_calculation
+- event feasibility on creation
+- dynamic events allocation in break times
