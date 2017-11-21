@@ -1,0 +1,5 @@
+RASD:
+- aggiungere scelta default per aggiunta evento tramite Google Calendar
+
+DD:
+- file da salvare su DB: informazioni e preferenze utenti, eventi e viaggi. 
