@@ -1,5 +1,7 @@
 RASD:
 - aggiungere scelta default per aggiunta evento tramite Google Calendar
+- add references for ui: Google Calendar, Maps
 
 DD:
 - file da salvare su DB: informazioni e preferenze utenti, eventi e viaggi. 
+- commenti su UX e BCE (generalizzazione acquisto biglietti, prenotazione veicoli)
