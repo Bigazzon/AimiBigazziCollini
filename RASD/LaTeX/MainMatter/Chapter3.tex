@@ -159,7 +159,7 @@ The mobile application is made up using mainly two Google APIs: Google Maps and 
 It is developed for the use on the two most common mobile operating systems: Android and iOS.
 %
 \subsection{Communication interfaces}
-The application communicates with the server using the protocol HTTPS (port 443).
+The application communicates with the server using Java Remote Method Invocation (RMI).
 %
 %------------------------------------------------------------------------ %
 %
@@ -206,7 +206,7 @@ The system will run 24/7 in order to make the user manage his events and the tri
 The main security features of the application are:  
 \begin{itemize}
 \item All the meetings and the trips must be kept private.
-\item Enable SSL/TLS encryption protocol for Client-Server communication to protect from internal and external threats, depending on user’s network configuration. Enabling SSL/TLS ensures the confidentiality, authentication, and integrity of session data.
+\item Enable SSL/TLS encryption protocol for Client-Server communication to protect from internal and external threats, depending on user’s network configuration. Enabling SSL/TLS ensures the confidentiality, authentication, and integrity of session data. Authentication is required for both server and client
 \item Insecure communication channels will lead to a refuse for the client’s request.
 \item Passwords must be encrypted, hashed and salted before they could be stored in the databases.
 \item Users can access in reading or in writing on only a limited set of data.
