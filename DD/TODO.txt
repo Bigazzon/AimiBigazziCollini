@@ -1,6 +1,10 @@
 RASD:
 - aggiungere scelta default per aggiunta evento tramite Google Calendar
+<<<<<<< HEAD
 - add references for ui: Google Calendar, Maps
+=======
+- le preferenze di viaggio di un evento ripetuto sono comuni 
+>>>>>>> origin/master
 
 DD:
 - file da salvare su DB: informazioni e preferenze utenti, eventi e viaggi. 
