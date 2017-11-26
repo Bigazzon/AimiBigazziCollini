@@ -13,5 +13,41 @@
 %
 \label{cap:algorithmdesign}
 %
+% ------------------------------------------------------------------------ %
+\begin{center}
+\thispagestyle{empty}
+\makebox[\textwidth][c]{\includegraphics[width=.7\textwidth]{MainMatter/images/algo/1overlap_check_algo}}
+\captionof{figure}{Overlap check algorithm}
+\end{center}
+%
+\begin{center}
+\thispagestyle{empty}
+\makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{MainMatter/images/algo/2trip_update_algo}}
+\captionof{figure}{Trip update algorithm}
+\end{center}
+%
+\begin{center}
+\thispagestyle{empty}
+\makebox[\textwidth][c]{\includegraphics[width=0.8\textwidth]{MainMatter/images/algo/3trip_planning1}}
+\captionof{figure}{Trip planning part 1}
+\end{center}
+%
+\begin{center}
+\thispagestyle{empty}
+\makebox[\textwidth][c]{\includegraphics[width=0.78\textwidth]{MainMatter/images/algo/3trip_planning2}}
+\captionof{figure}{Trip planning part 2}
+\end{center}
+%
+\begin{center}
+\thispagestyle{empty}
+\makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{MainMatter/images/algo/3trip_planning3}}
+\captionof{figure}{Trip planning part 3}
+\end{center}
+%
+\begin{center}
+\thispagestyle{empty}
+\makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{MainMatter/images/algo/3trip_planning3}}
+\captionof{figure}{Trip planning part 3}
+\end{center}
 %
 % -----------------------------END------------------------------------- %

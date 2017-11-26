@@ -15,7 +15,13 @@
 %
 % ------------------------------------------------------------------------ %
 %
-Intro.
+This document is the Design Document (DD) of a mobile application called Travlendar+. It is mainly addressed to the software development team and its purpose is to provide an overall view of the architecture of the new system. The document defines: 
+\begin{itemize}
+\item	High level architecture;
+\item	Used design patterns;
+\item	Main components of the system;
+\item	Runtime behavior.
+\end{itemize}
 %
 % ------------------------------------------------------------------------ %
 %
@@ -29,11 +35,30 @@ Eventually the user will be able to purchase the tickets he will use to reach hi
 \section{Definitions and Acronyms}
 %
 \subsection{Definitions}
+List of the definitions used in this paper:
+\begin{itemize}
+\item	*******************************************************************************************************************
+\end{itemize}
+
 \subsection{Acronyms}
+List of the acronyms used in this paper:
+\begin{itemize}
+\item	RASD: Requirements analysis and specification document;
+\item	DD: Design document;
+\item	MOT: Means of transport;
+\item	RMI: Remote Method Invocation;
+\item	API: Application Programming Interface;
+\item	UX: User experience;
+\item	BCE: Boundary Control Entity;
+\item	UI: User interface.
+\end{itemize}
 %
 % ------------------------------------------------------------------------ %
 %
 \section{Revision History}
+\begin{itemize}
+\item	26/11/2017 Version 1.0.0 - First complete drawing up of the DD;
+\end{itemize}
 %
 % ------------------------------------------------------------------------ %
 %
@@ -42,13 +67,40 @@ Documents list:
 \begin{itemize}
 \item Mandatory Project Assignments.pdf
 \end{itemize}
+Online sites list:
+\begin{itemize}
+\item	https://developers.google.com/maps/ (used also to design mockups)
+\item	https://developers.google.com/google-apps/calendar/ (used also to design mockups)
+\item	https://openweathermap.org/api
+\end{itemize}
 %
 % ------------------------------------------------------------------------ %
 %
 \section{Document Structure}
+The paper is structured as follows:
+\begin{itemize}
+\item	Chapter 1: Introduction to the document, including some information
+about its composition and the description of the problem;
+\item	Chapter 2: This chapter shows the main components of the system and the relationships between them. It also explains the main architectural styles and patterns adopted in the design of the system;
+\item	Chapter 3: This chapter explains how the system will work using algorithms. Java code is used to write down the most significant algorithms for the application;
+\item	Chapter 4: This chapter shows mockups of the application and more details about the User Interface using UX and BCE diagrams;
+\item	Chapter 5: This chapter explains how the decisions taken in the RASD are associater to design decisions;
+\item	Chapter 6: This chapter describes the order of implementation of the subcomponents of the system and the order in which integrate
+such subcomponents and test the integration;
+\item	Chapter 7: Effort spent by the authors to draw up the document.
+\end{itemize}
 %
 % ------------------------------------------------------------------------ %
 %
 \section{Used tools}
+The tools used to create this document are:
+\begin{itemize}
+\item	Photoshop for mockups;
+\item	Draw.io for diagrams;	
+\item	Atom for algorithms drawing up;
+\item	Github as version controller and to share documents;
+\item	LaTeX for typesetting this document;
+\item	Texmaker as editor;
+\end{itemize}
 %
 % -----------------------------END------------------------------------- %
