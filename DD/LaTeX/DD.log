@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.5)  24 NOV 2017 18:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.5)  26 NOV 2017 13:17
 entering extended mode
 **./DD.tex
 (DD.tex
@@ -1994,37 +1994,133 @@ Package pdftex.def Info: FrontMatter/Frontispiece.pdf, page1 used on input line
 ]
 (MainMatter/Chapter1.tex
 Chapter 1.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [1
-
-
-]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 43.
-
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 20.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 43.
-)
-(MainMatter/Chapter2.tex [2]
-Chapter 2.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 20.
+ [1
 
-Overfull \hbox (13.70996pt too wide) in paragraph at lines 38--38
+
+] [2])
+(MainMatter/Chapter2.tex [3]
+Chapter 2.
+[4
+
+] <MainMatter/images/ad/component.jpg, id=116, 1918.16624pt x 1140.26pt>
+File: MainMatter/images/ad/component.jpg Graphic file (type jpg)
+
+<use MainMatter/images/ad/component.jpg>
+Package pdftex.def Info: MainMatter/images/ad/component.jpg used on input line 
+28.
+(pdftex.def)             Requested size: 568.82797pt x 338.13107pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 29.
+See the caption package documentation for explanation.
+
+[5
+
+ <./MainMatter/images/ad/component.jpg>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6
+
+]
+<MainMatter/images/runtime/login.jpg, id=127, 1346.02875pt x 723.70375pt>
+File: MainMatter/images/runtime/login.jpg Graphic file (type jpg)
+
+<use MainMatter/images/runtime/login.jpg>
+Package pdftex.def Info: MainMatter/images/runtime/login.jpg used on input line
+ 47.
+(pdftex.def)             Requested size: 681.04305pt x 366.16872pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 48.
+See the caption package documentation for explanation.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7
+
+ <./MainMatter/images/runtime/login.jpg>]
+<MainMatter/images/runtime/add.jpg, id=133, 1100.11pt x 603.25375pt>
+File: MainMatter/images/runtime/add.jpg Graphic file (type jpg)
+
+<use MainMatter/images/runtime/add.jpg>
+Package pdftex.def Info: MainMatter/images/runtime/add.jpg used on input line 5
+6.
+(pdftex.def)             Requested size: 665.56735pt x 364.98344pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 57.
+See the caption package documentation for explanation.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8
+
+
+ <./MainMatter/images/runtime/add.jpg>]
+<MainMatter/images/runtime/tripcomm.jpg, id=139, 1386.17876pt x 734.745pt>
+File: MainMatter/images/runtime/tripcomm.jpg Graphic file (type jpg)
+
+<use MainMatter/images/runtime/tripcomm.jpg>
+Package pdftex.def Info: MainMatter/images/runtime/tripcomm.jpg used on input l
+ine 65.
+(pdftex.def)             Requested size: 688.78384pt x 365.0957pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 66.
+See the caption package documentation for explanation.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9
+
+
+ <./MainMatter/images/runtime/tripcomm.jpg>]
+<MainMatter/images/runtime/tripcustom.jpg, id=145, 1697.34125pt x 885.3075pt>
+File: MainMatter/images/runtime/tripcustom.jpg Graphic file (type jpg)
+
+<use MainMatter/images/runtime/tripcustom.jpg>
+Package pdftex.def Info: MainMatter/images/runtime/tripcustom.jpg used on input
+ line 74.
+(pdftex.def)             Requested size: 700.3921pt x 365.31541pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 75.
+See the caption package documentation for explanation.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10
+
+
+ <./MainMatter/images/runtime/tripcustom.jpg>]
+Overfull \hbox (13.70996pt too wide) in paragraph at lines 85--85
 []\T1/lmr/bx/n/17.28 Selected Ar-chi-tec-tural Styles and Pat-terns 
  []
 
-) (MainMatter/Chapter3.tex [3
+) (MainMatter/Chapter3.tex [11
 
 ]
 Chapter 3.
-) (MainMatter/Chapter4.tex [4
+) (MainMatter/Chapter4.tex [12
 
 ]
 Chapter 4.
-<MainMatter/images/ui/login.jpg, id=116, 116.01872pt x 193.36455pt>
+<MainMatter/images/ui/login.jpg, id=160, 116.01872pt x 193.36455pt>
 File: MainMatter/images/ui/login.jpg Graphic file (type jpg)
 
 <use MainMatter/images/ui/login.jpg>
@@ -2039,10 +2135,10 @@ See the caption package documentation for explanation.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5
+ [13
 
 ]
-<MainMatter/images/ui/signup.jpg, id=122, 116.01872pt x 193.36455pt>
+<MainMatter/images/ui/signup.jpg, id=165, 116.01872pt x 193.36455pt>
 File: MainMatter/images/ui/signup.jpg Graphic file (type jpg)
 
 <use MainMatter/images/ui/signup.jpg>
@@ -2058,8 +2154,8 @@ See the caption package documentation for explanation.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6 <./MainMatter/images/ui/login.jpg>]
-<MainMatter/images/ui/firstsetup.jpg, id=128, 116.01872pt x 193.36455pt>
+ [14 <./MainMatter/images/ui/login.jpg>]
+<MainMatter/images/ui/firstsetup.jpg, id=171, 116.01872pt x 193.36455pt>
 File: MainMatter/images/ui/firstsetup.jpg Graphic file (type jpg)
 
 <use MainMatter/images/ui/firstsetup.jpg>
@@ -2075,8 +2171,8 @@ See the caption package documentation for explanation.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7 <./MainMatter/images/ui/signup.jpg>]
-<MainMatter/images/ui/calendar.jpg, id=134, 232.03746pt x 386.7291pt>
+ [15 <./MainMatter/images/ui/signup.jpg>]
+<MainMatter/images/ui/calendar.jpg, id=177, 232.03746pt x 386.7291pt>
 File: MainMatter/images/ui/calendar.jpg Graphic file (type jpg)
 
 <use MainMatter/images/ui/calendar.jpg>
@@ -2092,8 +2188,8 @@ See the caption package documentation for explanation.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8 <./MainMatter/images/ui/firstsetup.jpg>]
-<MainMatter/images/ui/newevent.jpg, id=140, 116.01872pt x 193.36455pt>
+ [16 <./MainMatter/images/ui/firstsetup.jpg>]
+<MainMatter/images/ui/newevent.jpg, id=183, 116.01872pt x 193.36455pt>
 File: MainMatter/images/ui/newevent.jpg Graphic file (type jpg)
 
 <use MainMatter/images/ui/newevent.jpg>
@@ -2109,8 +2205,8 @@ See the caption package documentation for explanation.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9 <./MainMatter/images/ui/calendar.jpg>]
-<MainMatter/images/ui/tripscreen.jpg, id=146, 232.03746pt x 386.7291pt>
+ [17 <./MainMatter/images/ui/calendar.jpg>]
+<MainMatter/images/ui/tripscreen.jpg, id=190, 232.03746pt x 386.7291pt>
 File: MainMatter/images/ui/tripscreen.jpg Graphic file (type jpg)
 
 <use MainMatter/images/ui/tripscreen.jpg>
@@ -2126,8 +2222,8 @@ See the caption package documentation for explanation.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10 <./MainMatter/images/ui/newevent.jpg>]
-<MainMatter/images/ui/journeydetails.jpg, id=152, 116.01872pt x 193.36455pt>
+ [18 <./MainMatter/images/ui/newevent.jpg>]
+<MainMatter/images/ui/journeydetails.jpg, id=196, 116.01872pt x 193.36455pt>
 File: MainMatter/images/ui/journeydetails.jpg Graphic file (type jpg)
 
 <use MainMatter/images/ui/journeydetails.jpg>
@@ -2143,8 +2239,8 @@ See the caption package documentation for explanation.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11 <./MainMatter/images/ui/tripscreen.jpg>]
-<MainMatter/images/ui/journeychoose.jpg, id=159, 116.01872pt x 193.36455pt>
+ [19 <./MainMatter/images/ui/tripscreen.jpg>]
+<MainMatter/images/ui/journeychoose.jpg, id=202, 116.01872pt x 193.36455pt>
 File: MainMatter/images/ui/journeychoose.jpg Graphic file (type jpg)
 
 <use MainMatter/images/ui/journeychoose.jpg>
@@ -2160,8 +2256,8 @@ See the caption package documentation for explanation.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12 <./MainMatter/images/ui/journeydetails.jpg>]
-<MainMatter/images/ui/customized.jpg, id=165, 116.01872pt x 193.36455pt>
+ [20 <./MainMatter/images/ui/journeydetails.jpg>]
+<MainMatter/images/ui/customized.jpg, id=208, 116.01872pt x 193.36455pt>
 File: MainMatter/images/ui/customized.jpg Graphic file (type jpg)
 
 <use MainMatter/images/ui/customized.jpg>
@@ -2177,18 +2273,43 @@ See the caption package documentation for explanation.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13 <./MainMatter/images/ui/journeychoose.jpg>] [14 <./MainMatter/images/ui/cu
-stomized.jpg>]) (MainMatter/Chapter5.tex [15]
+ [21 <./MainMatter/images/ui/journeychoose.jpg>] [22 <./MainMatter/images/ui/cu
+stomized.jpg>] <MainMatter/images/ui/ux.jpg, id=219, 805.20825pt x 988.29225pt>
+File: MainMatter/images/ui/ux.jpg Graphic file (type jpg)
+
+<use MainMatter/images/ui/ux.jpg>
+Package pdftex.def Info: MainMatter/images/ui/ux.jpg used on input line 68.
+(pdftex.def)             Requested size: 444.99875pt x 546.18636pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 69.
+See the caption package documentation for explanation.
+
+[23 <./MainMatter/images/ui/ux.jpg>]
+<MainMatter/images/ui/bce.jpg, id=226, 716.07526pt x 761.84625pt>
+File: MainMatter/images/ui/bce.jpg Graphic file (type jpg)
+
+<use MainMatter/images/ui/bce.jpg>
+Package pdftex.def Info: MainMatter/images/ui/bce.jpg used on input line 80.
+(pdftex.def)             Requested size: 425.6556pt x 452.86821pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 81.
+See the caption package documentation for explanation.
+
+) (MainMatter/Chapter5.tex [24 <./MainMatter/images/ui/bce.jpg>]
 Chapter 5.
-) (MainMatter/Chapter6.tex [16
+) (MainMatter/Chapter6.tex [25
 
 ]
 Chapter 6.
-) (MainMatter/Chapter7.tex [17
+) (MainMatter/Chapter7.tex [26
 
 ]
 Chapter 7.
-) [18
+) [27
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 232.
@@ -2201,15 +2322,15 @@ Package logreq Info: Writing requests to 'DD.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32742 strings out of 493323
- 593916 string characters out of 3139066
- 1211659 words of memory out of 3000000
- 35688 multiletter control sequences out of 15000+200000
- 581666 words of font info for 75 fonts, out of 3000000 for 9000
+ 32813 strings out of 493323
+ 595464 string characters out of 3139066
+ 1211688 words of memory out of 3000000
+ 35725 multiletter control sequences out of 15000+200000
+ 582121 words of font info for 80 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,18n,77p,10447b,2117s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Fil
-es/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiKTeX 2.9/fonts/t
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
+iKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
@@ -2218,9 +2339,9 @@ cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12
 Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/lm/lmro12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /lm/lmsy10.pfb>
-Output written on DD.pdf (20 pages, 2032277 bytes).
+Output written on DD.pdf (29 pages, 3369700 bytes).
 PDF statistics:
- 304 PDF objects out of 1000 (max. 8388607)
- 56 named destinations out of 1000 (max. 500000)
- 17162 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 357 PDF objects out of 1000 (max. 8388607)
+ 72 named destinations out of 1000 (max. 500000)
+ 17197 words of extra memory for PDF output out of 17280 (max. 10000000)
 

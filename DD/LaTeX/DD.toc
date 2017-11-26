@@ -9,20 +9,20 @@
 \contentsline {section}{\numberline {1.C}Revision History}{2}{section.1.3}
 \contentsline {section}{\numberline {1.D}References}{2}{section.1.4}
 \contentsline {section}{\numberline {1.E}Document Structure}{2}{section.1.5}
-\contentsline {section}{\numberline {1.F}Used tools}{2}{section.1.6}
-\contentsline {chapter}{\numberline {2}Architectural Design}{3}{chapter.2}
-\contentsline {section}{\numberline {2.A}Overview}{3}{section.2.1}
-\contentsline {section}{\numberline {2.B}Component View}{3}{section.2.2}
-\contentsline {section}{\numberline {2.C}Deployment View}{3}{section.2.3}
-\contentsline {section}{\numberline {2.D}Runtime View}{3}{section.2.4}
-\contentsline {section}{\numberline {2.E}Component Interfaces}{3}{section.2.5}
-\contentsline {section}{\numberline {2.F}Selected Architectural Styles and Patterns}{3}{section.2.6}
-\contentsline {section}{\numberline {2.G}Other Design Decisions}{3}{section.2.7}
-\contentsline {chapter}{\numberline {3}Algorithm Design}{4}{chapter.3}
-\contentsline {chapter}{\numberline {4}User Interface Design}{5}{chapter.4}
-\contentsline {section}{\numberline {4.A}Mockups}{5}{section.4.1}
-\contentsline {section}{\numberline {4.B}UX Diagrams}{14}{section.4.2}
-\contentsline {section}{\numberline {4.C}BCE Diagrams}{15}{section.4.3}
-\contentsline {chapter}{\numberline {5}Requirements Traceability}{16}{chapter.5}
-\contentsline {chapter}{\numberline {6}Implementation, Integration and Test Plan}{17}{chapter.6}
-\contentsline {chapter}{\numberline {7}Effort Spent}{18}{chapter.7}
+\contentsline {section}{\numberline {1.F}Used tools}{3}{section.1.6}
+\contentsline {chapter}{\numberline {2}Architectural Design}{4}{chapter.2}
+\contentsline {section}{\numberline {2.A}Overview}{4}{section.2.1}
+\contentsline {section}{\numberline {2.B}Component View}{5}{section.2.2}
+\contentsline {section}{\numberline {2.C}Deployment View}{6}{section.2.3}
+\contentsline {section}{\numberline {2.D}Runtime View}{6}{section.2.4}
+\contentsline {section}{\numberline {2.E}Component Interfaces}{11}{section.2.5}
+\contentsline {section}{\numberline {2.F}Selected Architectural Styles and Patterns}{11}{section.2.6}
+\contentsline {section}{\numberline {2.G}Other Design Decisions}{11}{section.2.7}
+\contentsline {chapter}{\numberline {3}Algorithm Design}{12}{chapter.3}
+\contentsline {chapter}{\numberline {4}User Interface Design}{13}{chapter.4}
+\contentsline {section}{\numberline {4.A}Mockups}{13}{section.4.1}
+\contentsline {section}{\numberline {4.B}UX Diagrams}{22}{section.4.2}
+\contentsline {section}{\numberline {4.C}BCE Diagrams}{24}{section.4.3}
+\contentsline {chapter}{\numberline {5}Requirements Traceability}{25}{chapter.5}
+\contentsline {chapter}{\numberline {6}Implementation, Integration and Test Plan}{26}{chapter.6}
+\contentsline {chapter}{\numberline {7}Effort Spent}{27}{chapter.7}
