@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.5)  26 NOV 2017 12:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.5)  26 NOV 2017 23:47
 entering extended mode
 **./RASD.tex
 (RASD.tex
@@ -2471,7 +2471,7 @@ Package logreq Info: Writing requests to 'RASD.run.xml'.
 Here is how much of TeX's memory you used:
  33670 strings out of 493323
  605660 string characters out of 3139066
- 1330225 words of memory out of 3000000
+ 1329225 words of memory out of 3000000
  36192 multiletter control sequences out of 15000+200000
  588066 words of font info for 106 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2491,7 +2491,7 @@ ogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX
 ublic/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtk10.p
 fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/lm/lmtti10.pfb>
-Output written on RASD.pdf (58 pages, 3295738 bytes).
+Output written on RASD.pdf (58 pages, 3295775 bytes).
 PDF statistics:
  949 PDF objects out of 1000 (max. 8388607)
  399 named destinations out of 1000 (max. 500000)
