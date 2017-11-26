@@ -10,24 +10,37 @@
 \contentsline {section}{\numberline {1.D}References}{2}{section.1.4}
 \contentsline {section}{\numberline {1.E}Document Structure}{3}{section.1.5}
 \contentsline {section}{\numberline {1.F}Used tools}{3}{section.1.6}
-\contentsline {chapter}{\numberline {2}Architectural Design}{4}{chapter.2}
-\contentsline {section}{\numberline {2.A}Overview}{4}{section.2.1}
+\contentsline {chapter}{\numberline {2}Architectural Design}{5}{chapter.2}
+\contentsline {section}{\numberline {2.A}Overview}{5}{section.2.1}
 \contentsline {section}{\numberline {2.B}Component View}{5}{section.2.2}
-\contentsline {section}{\numberline {2.C}Deployment View}{6}{section.2.3}
-\contentsline {section}{\numberline {2.D}Runtime View}{6}{section.2.4}
-\contentsline {section}{\numberline {2.E}Component Interfaces}{11}{section.2.5}
-\contentsline {section}{\numberline {2.F}Selected Architectural Styles and Patterns}{11}{section.2.6}
-\contentsline {section}{\numberline {2.G}Other Design Decisions}{11}{section.2.7}
-\contentsline {chapter}{\numberline {3}Algorithm Design}{12}{chapter.3}
-\contentsline {chapter}{\numberline {4}User Interface Design}{24}{chapter.4}
-\contentsline {section}{\numberline {4.A}Mockups}{24}{section.4.1}
-\contentsline {section}{\numberline {4.B}UX Diagrams}{33}{section.4.2}
-\contentsline {section}{\numberline {4.C}BCE Diagrams}{36}{section.4.3}
-\contentsline {chapter}{\numberline {5}Requirements Traceability}{37}{chapter.5}
-\contentsline {chapter}{\numberline {6}Implementation,\\Integration and Test Plan}{38}{chapter.6}
-\contentsline {section}{\numberline {6.A}Implementation Order}{38}{section.6.1}
-\contentsline {section}{\numberline {6.B}Integration and Test Plan}{39}{section.6.2}
-\contentsline {subsection}{\numberline {6.B.1}Entry criteria}{39}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.B.2}Elements to Be Integrated}{39}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.B.3}Integration Strategy}{39}{subsection.6.2.3}
-\contentsline {chapter}{\numberline {7}Effort Spent}{40}{chapter.7}
+\contentsline {subsection}{\numberline {2.B.1}High level components}{5}{subsection.2.2.1}
+\contentsline {section}{\numberline {2.C}Deployment View}{9}{section.2.3}
+\contentsline {section}{\numberline {2.D}Runtime View}{10}{section.2.4}
+\contentsline {section}{\numberline {2.E}Component Interfaces}{15}{section.2.5}
+\contentsline {section}{\numberline {2.F}Selected Architectural Styles and Patterns}{15}{section.2.6}
+\contentsline {subsection}{\numberline {2.F.1}Architectural style: Client-Server}{15}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.F.2}Three-tier architecture}{16}{subsection.2.6.2}
+\contentsline {subsection}{\numberline {2.F.3}Basic architectural patterns}{17}{subsection.2.6.3}
+\contentsline {subsubsection}{Stateless components}{17}{section*.2}
+\contentsline {subsubsection}{Stateless components}{17}{section*.3}
+\contentsline {subsubsection}{Elastic load balancer}{17}{section*.4}
+\contentsline {subsubsection}{Processing component}{17}{section*.5}
+\contentsline {subsubsection}{Elastic queue}{17}{section*.6}
+\contentsline {section}{\numberline {2.G}Architectural pattern}{18}{section.2.7}
+\contentsline {subsubsection}{Model View Controller}{18}{section*.7}
+\contentsline {subsubsection}{Commercial architectural system}{19}{section*.8}
+\contentsline {section}{\numberline {2.H}Other Design Decisions}{21}{section.2.8}
+\contentsline {subsubsection}{Push Notifications}{21}{section*.9}
+\contentsline {chapter}{\numberline {3}Algorithm Design}{22}{chapter.3}
+\contentsline {chapter}{\numberline {4}User Interface Design}{34}{chapter.4}
+\contentsline {section}{\numberline {4.A}Mockups}{34}{section.4.1}
+\contentsline {section}{\numberline {4.B}UX Diagrams}{43}{section.4.2}
+\contentsline {section}{\numberline {4.C}BCE Diagrams}{46}{section.4.3}
+\contentsline {chapter}{\numberline {5}Requirements Traceability}{47}{chapter.5}
+\contentsline {chapter}{\numberline {6}Implementation,\\Integration and Test Plan}{48}{chapter.6}
+\contentsline {section}{\numberline {6.A}Implementation Order}{48}{section.6.1}
+\contentsline {section}{\numberline {6.B}Integration and Test Plan}{49}{section.6.2}
+\contentsline {subsection}{\numberline {6.B.1}Entry criteria}{49}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.B.2}Elements to Be Integrated}{49}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.B.3}Integration Strategy}{49}{subsection.6.2.3}
+\contentsline {chapter}{\numberline {7}Effort Spent}{50}{chapter.7}
