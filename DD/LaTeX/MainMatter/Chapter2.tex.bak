@@ -215,7 +215,6 @@ Processing functionalities are divided into separate blocks and assigned to inde
 Queues are used to distribute asynchronous requests to multiple application component instances. From the number of messages queued will be decided the number of component instances handling that requests.
 
 \begin{center}
-\thispagestyle{empty}
 \makebox[\textwidth][c]{\includegraphics[width=1.2\textwidth]{MainMatter/images/ad/three}}
 \captionof{figure}{Three tier cloud application}
 \end{center}
@@ -235,11 +234,9 @@ It also guarantees the divide and conquer principle allowing parallel developmen
 An example of how can be represented the MVC pattern is shown in the figure below.
 
 \begin{center}
-\thispagestyle{empty}
-\makebox[\textwidth][c]{\includegraphics[width=1.2\textwidth]{MainMatter/images/ad/three}}
-\captionof{figure}{Three tier cloud application}
+\makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{MainMatter/images/ad/mvc.jpg}}
+\captionof{figure}{Model view controller}
 \end{center}
-
 
 \subsubsection{Commercial architectural system}
 To support the development and the execution on enterprise application with a lot of users and lots of requirements we suggest the usage of Java Enterprise Edition (JEE).
@@ -257,7 +254,10 @@ It will also be in charge of firewall, cache, proxy and reverse proxy functions.
 \end{itemize}
 In the end, the Enterprise Information System (EIS) is devoted to the data management and will operate like a DBMS.
 
-
+\begin{center}
+\makebox[\textwidth][c]{\includegraphics[width=.8\textwidth]{MainMatter/images/ad/commercial}}
+\captionof{figure}{ommercial architectural system}
+\end{center}
 %
 % ------------------------------------------------------------------------ %
 %

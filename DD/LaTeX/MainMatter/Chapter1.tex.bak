@@ -37,7 +37,12 @@ Eventually the user will be able to purchase the tickets he will use to reach hi
 \subsection{Definitions}
 List of the definitions used in this paper:
 \begin{itemize}
-\item	*******************************************************************************************************************
+\item	Reverse Proxy: the component that will send the information received from multiple servers to the correct client.
+\item	ToTrip: often used in code to refer to a trip with the event ad destination;
+\item	FromTrip: often used in code to refer to a trip with the event ad departure location;
+\item	Primary Event: feasible event;
+\item	Secondary Event: not feasible event;
+\item
 \end{itemize}
 
 \subsection{Acronyms}
@@ -50,7 +55,19 @@ List of the acronyms used in this paper:
 \item	API: Application Programming Interface;
 \item	UX: User experience;
 \item	BCE: Boundary Control Entity;
-\item	UI: User interface.
+\item	UI: User interface;
+\item	IaaS: Infrastructure as a Service;
+\item	REST: Representational State Transfer;
+\item	JNDI: Java Naming and Directory Interface;
+\item	JDBC: Java DataBase Connectivity;
+\item	EJB: Enterprise Java Beans;
+\item	DBMS: Data Base Management System;
+\item	JEE: Java Enterprise Edition;
+\item	EIS: Enterprise Information System;
+\item	JSP: Java Server Pages;
+\item	JSF: Java Server Faces;
+\item	JPA: Java Persistence API.
+
 \end{itemize}
 %
 % ------------------------------------------------------------------------ %

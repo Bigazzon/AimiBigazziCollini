@@ -47,6 +47,8 @@ public void tripPlanningAlgorithm(Trip t, Event e){
 
     if(checkStrikes(t1.getStartingLocation(), t1.getStartTime()) && t1.getMOT.isEqual(MeansOfTransport.PUBLICTRANSPORT)){ break; }
 
+    if(t.hasPassengers() && !t1.getMOT().admitPassengers()){ break; }
+
     trips.add(t1);
   }
 
@@ -73,7 +75,7 @@ public void tripPlanningAlgorithm(Trip t, Event e){
     personalEventsController.getPrevious(e).setFromTrip(t);
   }
 
-  if(t.getMOT().needsTicket()){
+  if(t.getMOT().needsTicket() && !user.getPreferences().hasSeasonPass(t1.getMOT())){
     ticketWarning(t);
   }
 }
