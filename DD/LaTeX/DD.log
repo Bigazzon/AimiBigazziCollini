@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.5)  26 NOV 2017 23:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.5)  30 NOV 2017 09:33
 entering extended mode
 **./DD.tex
 (DD.tex
@@ -2124,13 +2124,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
  <./MainMatter/images/runtime/tripcomm.jpg>]
-<MainMatter/images/runtime/tripcustom.jpg, id=204, 1697.34125pt x 885.3075pt>
+<MainMatter/images/runtime/tripcustom.jpg, id=204, 1697.34125pt x 884.30376pt>
 File: MainMatter/images/runtime/tripcustom.jpg Graphic file (type jpg)
 
 <use MainMatter/images/runtime/tripcustom.jpg>
 Package pdftex.def Info: MainMatter/images/runtime/tripcustom.jpg used on input
  line 145.
-(pdftex.def)             Requested size: 700.3921pt x 365.31541pt.
+(pdftex.def)             Requested size: 700.3921pt x 364.90125pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -2620,7 +2620,7 @@ Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
 lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmro12.pfb><C:/P
 rogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on DD.pdf (56 pages, 5375160 bytes).
+Output written on DD.pdf (56 pages, 5370321 bytes).
 PDF statistics:
  776 PDF objects out of 1000 (max. 8388607)
  294 named destinations out of 1000 (max. 500000)
