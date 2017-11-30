@@ -17,7 +17,7 @@
 \contentsline {section}{\numberline {2.C}Deployment View}{9}{section.2.3}
 \contentsline {section}{\numberline {2.D}Runtime View}{10}{section.2.4}
 \contentsline {section}{\numberline {2.E}Component Interfaces}{15}{section.2.5}
-\contentsline {section}{\numberline {2.F}Selected Architectural Styles and Patterns}{15}{section.2.6}
+\contentsline {section}{\numberline {2.F}Selected Architectural \\Styles and Patterns}{15}{section.2.6}
 \contentsline {subsection}{\numberline {2.F.1}Architectural style: Client-Server}{15}{subsection.2.6.1}
 \contentsline {subsection}{\numberline {2.F.2}Three-tier architecture}{16}{subsection.2.6.2}
 \contentsline {subsection}{\numberline {2.F.3}Basic architectural patterns}{17}{subsection.2.6.3}
@@ -25,7 +25,7 @@
 \contentsline {subsubsection}{Stateless components}{17}{section*.3}
 \contentsline {subsubsection}{Elastic load balancer}{17}{section*.4}
 \contentsline {subsubsection}{Processing component}{17}{section*.5}
-\contentsline {subsubsection}{Elastic queue}{17}{section*.6}
+\contentsline {subsubsection}{Elastic queue}{18}{section*.6}
 \contentsline {section}{\numberline {2.G}Architectural pattern}{18}{section.2.7}
 \contentsline {subsubsection}{Model View Controller}{18}{section*.7}
 \contentsline {subsubsection}{Commercial architectural system}{19}{section*.8}
