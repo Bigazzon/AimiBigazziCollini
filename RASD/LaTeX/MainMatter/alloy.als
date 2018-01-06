@@ -43,7 +43,7 @@ sig Meeting{
 }{
 	date>0 &&
 	startingTime>0 &&
-	endingTime>startingTime
+	endingTime>startingTime &&
 	#requires>0
 }
 
@@ -98,8 +98,8 @@ fact userHasTickets{
 
 //Users will travel on mean they could take
 fact noUnauthorizedMean{
-	all u: User, t: Travel | u.owns in t.mean || u.subscribed in t.mean || 
-	u.provides in t.needed
+	all u: User, t: Travel | t.mean in u.owns || t.mean in u.subscribed || 
+	t.needed in u.provides
 }
 
 fact uniqueMail {
@@ -108,10 +108,10 @@ fact uniqueMail {
 
 //Preferences are connected to what the user owns or provides
 fact consistentPreferences{
-	all p: Preference | one u: User | p in u.preferences && p.carshare=True <=> #u.subscribed>0
-	&& p.ownMean=True <=> #u.owns>0
-	&& p.bikeshare=True <=> #u.subscribed>0
-	&& p.publicMean=True <=> #u.provides>0
+	all p: Preference | one u: User | p in u.preferences && (p.carshare=True => #u.subscribed>0)
+	&& (p.ownMean=True => #u.owns>0)
+	&& (p.bikeshare=True => #u.subscribed>0)
+	&& (p.publicMean=True => #u.provides>0)
 }
 
 //Meetings are connected to users
@@ -127,7 +127,7 @@ fact noDuplicates{
 //Travels associated to a user must start at different times
 fact travelsStartAtDifferentTime{
 	no disj t1, t2: Travel | one m: Meeting | m in t1.associated && m in t2.associated 
-	&& t1.startingTime=t2.startingTime && t1.endingTime=t2.endingTime
+	&& t1.date=t2.date && t1.startingTime=t2.startingTime && t1.endingTime=t2.endingTime
 }
 
 fact needTicketIfPublicMean{
