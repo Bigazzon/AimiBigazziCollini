@@ -53,6 +53,7 @@ The objective is to show the reader the logic under the decision precesses of ou
 \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{MainMatter/images/algo/3trip_planning3}}
 \captionof{figure}{Trip planning algorithm part 3}
 \end{center}
+\pagebreak
 \lstinputlisting[language=Java]{MainMatter/srccode/trip_planning_algo.java}
 %
 \begin{center}

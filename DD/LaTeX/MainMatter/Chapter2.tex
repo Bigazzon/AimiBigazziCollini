@@ -120,32 +120,41 @@ The functionalities considered for the runtime view are: login, adding of an eve
 \end{center}
 \end{landscape}
 
+In the runtime view of the User Login, the User interacts with the User Application filling in the needed fields with his credentials, then the User Controller checks if the credentials are correct. The main screen or an error is shown, as appropriate.
+
 \pagebreak
 \begin{landscape}
 \begin{center}
 \thispagestyle{empty}
 \makebox[\textwidth][c]{\includegraphics[width=1.72\textwidth]{MainMatter/images/runtime/add}}
-\captionof{figure}{Adding of an event in the calendar runtime view}
+\captionof{figure}{Addition of an event in the calendar runtime view}
 \end{center}
 \end{landscape}
+
+In the runtime view of the addition of an event in the calendar, the User fills in the event form shown by the User Application. Once the event is created, it is sent to the Event Controller that check possible overlappings, if so, the User is requested to choose a primary event between the overlapping ones. Then the new event is stored in the database and the updated calendar is shown.
 
 \pagebreak
 \begin{landscape}
 \begin{center}
 \thispagestyle{empty}
 \makebox[\textwidth][c]{\includegraphics[width=1.78\textwidth]{MainMatter/images/runtime/tripcomm}}
-\captionof{figure}{Trip planning runtime view}
+\captionof{figure}{Trip planning runtime view (read the description for the assumptions made)}
 \end{center}
 \end{landscape}
+
+In the runtime view of the trip planning starts with the notification of the addition of a new event to the database by the Event Manager. The Trip Manager gets the previous and the following event and chooses the trips between the various events that meet the user preferences using Google Maps API. In this runtime view is assumed that some overlapping is detected and the User chooses the new event as the primary one, so that the new computed trips are stored in the database.
 
 \pagebreak
 \begin{landscape}
 \begin{center}
 \thispagestyle{empty}
 \makebox[\textwidth][c]{\includegraphics[width=1.7\textwidth]{MainMatter/images/runtime/tripcustom}}
-\captionof{figure}{Trip customization runtime view (I assume that the trip is already saved on the device, because otherwise it will have to be synced from the database)}
+\captionof{figure}{Trip customization runtime view (read the description for the assumptions made)}
 \end{center}
 \end{landscape}
+
+In the runtime view of the trip customization the User chooses to modify a trip, customizing it (I assume that the trip is already saved on the device, because otherwise it will have to be downloaded from the database). The User can change his preferred means of transport and the Trip Controller will compute new trips using Google Maps API, in order to fit User's preferences. At the end the User has to choose his preferred trip and the trip is stored.
+
 %
 % ------------------------------------------------------------------------ %
 %
@@ -200,7 +209,7 @@ The state is handled external of application components to ease their scaling-ou
 In this system cloud resources can display low availability and also component instances can be added and removed regularly when the demand changes.
 So, components will be implemented in a way that the do not have any internal state. Instead it will be provided to the component with each request form external persistent storage.
 
-\subsubsection{Stateless components}
+\subsubsection{User interface components}
 An interactive synchronous access to the applications is provided to users, instead the interactions in the application are asynchronous if possible, to ensure loose coupling (Principle 3 of the design principles).
 In other words, the user interface component is like a bridge between the synchronous access of the user and the asynchronous communication with other components. Like for stateless components also these ones are obtained from external storage.
 The number of components are scaled based on the number of user requests through the elastic load balancer pattern.
